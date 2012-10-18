@@ -1,4 +1,10 @@
-﻿using System;
+﻿//----------------------------------------------------------------------------------------------------------
+// Source: 	MainForm.cs
+// Description:	Main form of the Crammer application
+// Author:	Martin Bjornebye
+//----------------------------------------------------------------------------------------------------------
+
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;

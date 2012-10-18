@@ -37,16 +37,71 @@ namespace MB.Crammer
             fillGridRows(mDictionary.Entries);
         }
 
-        #region Button Handlers
+        #region Toolstrip Button Handlers
 
+        private void toolStripButtonSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                for (int i = 0; i < dataGridView1.Rows.Count; i++)
+                {
+                    DictionaryEntry entry = (DictionaryEntry)dataGridView1.Rows[i].Cells[3].Value;
+                    string a = dataGridView1.Rows[i].Cells[0].Value.ToString();
+                    string b = dataGridView1.Rows[i].Cells[1].Value.ToString();
+                    bool active = (bool)dataGridView1.Rows[i].Cells[2].Value;
+
+                    if (entry.AEntry != a || entry.BEntry != b || entry.Active != active)
+                    {
+                        entry.AEntry = a;
+                        entry.BEntry = b;
+                        entry.Active = active;
+                    }
+                }
+
+                mDictionary.save(true);
+                setDirty();
+                cmdSave.Enabled = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Crammer", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+
+        private void toolStripButtonFindDuplicates_Click(object sender, EventArgs e)
+        {
+            findDuplicatesMenuItem_Click(sender, e);
+        }
+
+        private void toolStripButtonTimeStampEntry_Click(object sender, EventArgs e)
+        {
+            timestampEntryMenuItem_Click(sender, e);
+        }
+
+        private void toolStripButtonDeleteEntry_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                removeMenuItem_Click(sender, e);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Crammer", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
 
         private void toolStripBtnClearFilters_Click(object sender, EventArgs e)
         {
             toolStripTxtAFilter.Text = "";
-            toolStripTxtBFilter.Text = "";
 
             fillGridRows(mDictionary.Entries);
         }
+
+
+        #endregion
+
+        #region Button Handlers
 
         /// <summary>
         /// A new entry is available
@@ -100,28 +155,9 @@ namespace MB.Crammer
         /// <param name="e"></param>
         private void cmdSave_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < dataGridView1.Rows.Count; i++)
-            {
-                DictionaryEntry entry = (DictionaryEntry)dataGridView1.Rows[i].Cells[3].Value;
-                string a = dataGridView1.Rows[i].Cells[0].Value.ToString();
-                string b = dataGridView1.Rows[i].Cells[1].Value.ToString();
-                bool active = (bool)dataGridView1.Rows[i].Cells[2].Value;
-
-                if (entry.AEntry != a || entry.BEntry != b || entry.Active != active)
-                {
-                    entry.AEntry = a;
-                    entry.BEntry = b;
-                    entry.Active = active;
-                }
-            }
-
-            mDictionary.save(true);
-            setDirty();
-            cmdSave.Enabled = false;
         }
 
         #endregion
-
 
         #region Private Helpers
 
@@ -319,34 +355,19 @@ namespace MB.Crammer
         
         #endregion
 
-
         private void searchEntries()
         {
-            if (string.IsNullOrEmpty(toolStripTxtAFilter.Text) && string.IsNullOrEmpty(toolStripTxtBFilter.Text))
+            if (string.IsNullOrEmpty(toolStripTxtAFilter.Text) )
             {
                 fillGridRows(mDictionary.Entries);
                 return;
             }
 
-            if (string.IsNullOrEmpty(toolStripTxtAFilter.Text) == false && string.IsNullOrEmpty(toolStripTxtBFilter.Text) == false)
+            if (string.IsNullOrEmpty(toolStripTxtAFilter.Text) == false && toolStripTxtAFilter.Text.Length > 1)
             {
                 IEnumerable<DictionaryEntry> matches = from c in mDictionary.Entries
-                                                       where c.AEntry.ToLower().Contains(toolStripTxtAFilter.Text.ToLower())
-                                                       where c.BEntry.ToLower().Contains(toolStripTxtBFilter.Text.ToLower())
-                                                       select c;
-                fillGridRows(matches);
-            }
-            else if (string.IsNullOrEmpty(toolStripTxtAFilter.Text) == false)
-            {
-                IEnumerable<DictionaryEntry> matches = from c in mDictionary.Entries
-                                                       where c.AEntry.ToLower().Contains(toolStripTxtAFilter.Text.ToLower())
-                                                       select c;
-                fillGridRows(matches);
-            }
-            else if (string.IsNullOrEmpty(toolStripTxtBFilter.Text) == false)
-            {
-                IEnumerable<DictionaryEntry> matches = from c in mDictionary.Entries
-                                                       where c.BEntry.ToLower().Contains(toolStripTxtBFilter.Text.ToLower())
+                                                       where ( c.AEntry.ToLower().Contains(toolStripTxtAFilter.Text.ToLower()) ||
+                                                               c.BEntry.ToLower().Contains(toolStripTxtAFilter.Text.ToLower()) )
                                                        select c;
                 fillGridRows(matches);
             }
@@ -375,13 +396,6 @@ namespace MB.Crammer
         {
             searchEntries();
         }
-
-        private void toolStripTxtBFilter_TextChanged(object sender, EventArgs e)
-        {
-            searchEntries();
-        }
-
-
 
     }
 }

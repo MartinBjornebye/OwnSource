@@ -79,6 +79,7 @@
             this.cmdNo = new System.Windows.Forms.Button();
             this.cmdVerify = new System.Windows.Forms.Button();
             this.cmdYes = new System.Windows.Forms.Button();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picNewWords)).BeginInit();
             this.SuspendLayout();
@@ -116,7 +117,6 @@
             this.newMenuItem,
             this.openMenuItem,
             this.toolStripSeparator11,
-            this.dictionarySettingsMenuItem,
             this.editDictionaryMenuItem,
             this.exportDictionaryMenuItem,
             this.toolStripSeparator7,
@@ -125,8 +125,10 @@
             this.toolStripSeparator10,
             this.sortToolStripMenuItem,
             this.toolStripSeparator8,
+            this.dictionarySettingsMenuItem,
+            this.toolStripSeparator12,
             this.exitMenuItem,
-            this.toolStripSeparator12});
+            this.toolStripSeparator4});
             this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
             this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
@@ -482,6 +484,11 @@
             this.cmdYes.UseVisualStyleBackColor = true;
             this.cmdYes.Click += new System.EventHandler(this.cmdYes_Click);
             // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(198, 6);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -560,6 +567,7 @@
         private System.Windows.Forms.Button cmdNo;
         private System.Windows.Forms.Button cmdVerify;
         private System.Windows.Forms.Button cmdYes;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
     }
 }
 

@@ -29,21 +29,19 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageDictionary));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripTxtAFilter = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripTxtBFilter = new System.Windows.Forms.ToolStripTextBox();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripBtnClearFilters = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonFindDuplicates = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonTimeStampEntry = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButtonDeleteEntry = new System.Windows.Forms.ToolStripButton();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.First = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Second = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Active = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Index = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.timestampEntryMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -61,8 +59,13 @@
             this.txtFirst = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmdSave = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.First = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Second = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Active = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.Index = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toolStripButtonSave = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -90,68 +93,86 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(492, 522);
-            this.splitContainer1.SplitterDistance = 39;
+            this.splitContainer1.Size = new System.Drawing.Size(487, 522);
+            this.splitContainer1.SplitterDistance = 32;
             this.splitContainer1.TabIndex = 0;
             // 
             // toolStrip1
             // 
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel2,
-            this.toolStripTxtAFilter,
-            this.toolStripLabel1,
-            this.toolStripTxtBFilter,
+            this.toolStripButtonSave,
+            this.toolStripButtonDeleteEntry,
             this.toolStripSeparator1,
-            this.toolStripBtnClearFilters});
+            this.toolStripButtonFindDuplicates,
+            this.toolStripButtonTimeStampEntry,
+            this.toolStripBtnClearFilters,
+            this.toolStripTxtAFilter,
+            this.toolStripLabel2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(492, 31);
+            this.toolStrip1.Size = new System.Drawing.Size(487, 27);
             this.toolStrip1.TabIndex = 6;
             this.toolStrip1.Text = "toolStrip1";
             // 
             // toolStripLabel2
             // 
+            this.toolStripLabel2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripLabel2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(45, 28);
-            this.toolStripLabel2.Text = "Filters:";
+            this.toolStripLabel2.Size = new System.Drawing.Size(39, 24);
+            this.toolStripLabel2.Text = "Filter:";
             // 
             // toolStripTxtAFilter
             // 
+            this.toolStripTxtAFilter.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripTxtAFilter.MaxLength = 100;
             this.toolStripTxtAFilter.Name = "toolStripTxtAFilter";
-            this.toolStripTxtAFilter.Size = new System.Drawing.Size(185, 31);
+            this.toolStripTxtAFilter.Size = new System.Drawing.Size(185, 27);
             this.toolStripTxtAFilter.TextChanged += new System.EventHandler(this.toolStripTxtAFilter_TextChanged);
-            // 
-            // toolStripLabel1
-            // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(12, 28);
-            this.toolStripLabel1.Text = "/";
-            // 
-            // toolStripTxtBFilter
-            // 
-            this.toolStripTxtBFilter.MaxLength = 100;
-            this.toolStripTxtBFilter.Name = "toolStripTxtBFilter";
-            this.toolStripTxtBFilter.Size = new System.Drawing.Size(185, 31);
-            this.toolStripTxtBFilter.TextChanged += new System.EventHandler(this.toolStripTxtBFilter_TextChanged);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // toolStripBtnClearFilters
             // 
+            this.toolStripBtnClearFilters.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripBtnClearFilters.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripBtnClearFilters.Image = ((System.Drawing.Image)(resources.GetObject("toolStripBtnClearFilters.Image")));
             this.toolStripBtnClearFilters.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripBtnClearFilters.Name = "toolStripBtnClearFilters";
-            this.toolStripBtnClearFilters.Size = new System.Drawing.Size(28, 28);
+            this.toolStripBtnClearFilters.Size = new System.Drawing.Size(24, 24);
             this.toolStripBtnClearFilters.Text = "toolStripButton1";
             this.toolStripBtnClearFilters.Click += new System.EventHandler(this.toolStripBtnClearFilters_Click);
+            // 
+            // toolStripButtonFindDuplicates
+            // 
+            this.toolStripButtonFindDuplicates.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonFindDuplicates.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonFindDuplicates.Image")));
+            this.toolStripButtonFindDuplicates.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonFindDuplicates.Name = "toolStripButtonFindDuplicates";
+            this.toolStripButtonFindDuplicates.Size = new System.Drawing.Size(24, 24);
+            this.toolStripButtonFindDuplicates.ToolTipText = "Find Duplicates";
+            this.toolStripButtonFindDuplicates.Click += new System.EventHandler(this.toolStripButtonFindDuplicates_Click);
+            // 
+            // toolStripButtonTimeStampEntry
+            // 
+            this.toolStripButtonTimeStampEntry.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonTimeStampEntry.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonTimeStampEntry.Image")));
+            this.toolStripButtonTimeStampEntry.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonTimeStampEntry.Name = "toolStripButtonTimeStampEntry";
+            this.toolStripButtonTimeStampEntry.Size = new System.Drawing.Size(24, 24);
+            this.toolStripButtonTimeStampEntry.Text = "Timestamp Entry";
+            this.toolStripButtonTimeStampEntry.Click += new System.EventHandler(this.toolStripButtonTimeStampEntry_Click);
+            // 
+            // toolStripButtonDeleteEntry
+            // 
+            this.toolStripButtonDeleteEntry.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonDeleteEntry.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonDeleteEntry.Image")));
+            this.toolStripButtonDeleteEntry.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonDeleteEntry.Name = "toolStripButtonDeleteEntry";
+            this.toolStripButtonDeleteEntry.Size = new System.Drawing.Size(24, 24);
+            this.toolStripButtonDeleteEntry.Text = "toolStripButtonDelete";
+            this.toolStripButtonDeleteEntry.ToolTipText = "Delete Entry";
+            this.toolStripButtonDeleteEntry.Click += new System.EventHandler(this.toolStripButtonDeleteEntry_Click);
             // 
             // splitContainer2
             // 
@@ -171,15 +192,24 @@
             this.splitContainer2.Panel2.Controls.Add(this.txtFirst);
             this.splitContainer2.Panel2.Controls.Add(this.label3);
             this.splitContainer2.Panel2.Controls.Add(this.label1);
-            this.splitContainer2.Panel2.Controls.Add(this.cmdSave);
-            this.splitContainer2.Size = new System.Drawing.Size(492, 479);
-            this.splitContainer2.SplitterDistance = 412;
+            this.splitContainer2.Size = new System.Drawing.Size(487, 486);
+            this.splitContainer2.SplitterDistance = 418;
             this.splitContainer2.TabIndex = 0;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.First,
@@ -190,34 +220,12 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 20;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(492, 412);
+            this.dataGridView1.Size = new System.Drawing.Size(487, 418);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellEndEdit += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEndEdit);
-            // 
-            // First
-            // 
-            this.First.HeaderText = "First";
-            this.First.Name = "First";
-            // 
-            // Second
-            // 
-            this.Second.HeaderText = "Second";
-            this.Second.Name = "Second";
-            // 
-            // Active
-            // 
-            this.Active.HeaderText = "Active";
-            this.Active.Name = "Active";
-            this.Active.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Active.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // Index
-            // 
-            this.Index.HeaderText = "Column1";
-            this.Index.Name = "Index";
-            this.Index.Visible = false;
             // 
             // contextMenuStrip1
             // 
@@ -309,7 +317,7 @@
             // cmdAddEntry
             // 
             this.cmdAddEntry.Enabled = false;
-            this.cmdAddEntry.Location = new System.Drawing.Point(371, 18);
+            this.cmdAddEntry.Location = new System.Drawing.Point(423, 17);
             this.cmdAddEntry.Name = "cmdAddEntry";
             this.cmdAddEntry.Size = new System.Drawing.Size(52, 34);
             this.cmdAddEntry.TabIndex = 5;
@@ -323,7 +331,7 @@
             this.txtSecond.Location = new System.Drawing.Point(62, 35);
             this.txtSecond.MaxLength = 500;
             this.txtSecond.Name = "txtSecond";
-            this.txtSecond.Size = new System.Drawing.Size(303, 20);
+            this.txtSecond.Size = new System.Drawing.Size(355, 20);
             this.txtSecond.TabIndex = 4;
             this.txtSecond.TextChanged += new System.EventHandler(this.txtSecond_TextChanged);
             // 
@@ -332,7 +340,7 @@
             this.txtFirst.Location = new System.Drawing.Point(62, 14);
             this.txtFirst.MaxLength = 500;
             this.txtFirst.Name = "txtFirst";
-            this.txtFirst.Size = new System.Drawing.Size(303, 20);
+            this.txtFirst.Size = new System.Drawing.Size(355, 20);
             this.txtFirst.TabIndex = 3;
             this.txtFirst.TextChanged += new System.EventHandler(this.txtFirst_TextChanged);
             // 
@@ -354,22 +362,52 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "&First:";
             // 
-            // cmdSave
+            // First
             // 
-            this.cmdSave.Enabled = false;
-            this.cmdSave.Location = new System.Drawing.Point(429, 18);
-            this.cmdSave.Name = "cmdSave";
-            this.cmdSave.Size = new System.Drawing.Size(52, 34);
-            this.cmdSave.TabIndex = 0;
-            this.cmdSave.Text = "&Save";
-            this.cmdSave.UseVisualStyleBackColor = true;
-            this.cmdSave.Click += new System.EventHandler(this.cmdSave_Click);
+            this.First.FillWeight = 91.64975F;
+            this.First.HeaderText = "First";
+            this.First.Name = "First";
+            // 
+            // Second
+            // 
+            this.Second.FillWeight = 91.64975F;
+            this.Second.HeaderText = "Second";
+            this.Second.Name = "Second";
+            // 
+            // Active
+            // 
+            this.Active.FillWeight = 46.70051F;
+            this.Active.HeaderText = "Active";
+            this.Active.Name = "Active";
+            this.Active.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Active.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Index
+            // 
+            this.Index.HeaderText = "Column1";
+            this.Index.Name = "Index";
+            this.Index.Visible = false;
+            // 
+            // toolStripButtonSave
+            // 
+            this.toolStripButtonSave.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButtonSave.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButtonSave.Image")));
+            this.toolStripButtonSave.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButtonSave.Name = "toolStripButtonSave";
+            this.toolStripButtonSave.Size = new System.Drawing.Size(24, 24);
+            this.toolStripButtonSave.ToolTipText = "Save Dictionary";
+            this.toolStripButtonSave.Click += new System.EventHandler(this.toolStripButtonSave_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // ManageDictionary
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(492, 522);
+            this.ClientSize = new System.Drawing.Size(487, 522);
             this.Controls.Add(this.splitContainer1);
             this.Name = "ManageDictionary";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -399,7 +437,6 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button cmdSave;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.TextBox txtSecond;
         private System.Windows.Forms.TextBox txtFirst;
@@ -410,15 +447,8 @@
         private System.Windows.Forms.ToolStripMenuItem removeMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripTextBox toolStripTxtAFilter;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.ToolStripTextBox toolStripTxtBFilter;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripBtnClearFilters;
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn First;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Second;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Active;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Index;
         private System.Windows.Forms.ToolStripMenuItem timestampEntryMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem allActiveMenuItem;
@@ -429,5 +459,14 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem findDuplicatesMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
+        private System.Windows.Forms.ToolStripButton toolStripButtonFindDuplicates;
+        private System.Windows.Forms.ToolStripButton toolStripButtonDeleteEntry;
+        private System.Windows.Forms.ToolStripButton toolStripButtonTimeStampEntry;
+        private System.Windows.Forms.DataGridViewTextBoxColumn First;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Second;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn Active;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Index;
+        private System.Windows.Forms.ToolStripButton toolStripButtonSave;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
     }
 }

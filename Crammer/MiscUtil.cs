@@ -1,4 +1,10 @@
-﻿using System;
+﻿//-----------------------------------------------------------------------------------------------------
+// Source:	MiscUtil.cs
+// Description:	Provides miscellaneous utility functions
+// Author:	Martin Bjornebye
+//-----------------------------------------------------------------------------------------------------
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
