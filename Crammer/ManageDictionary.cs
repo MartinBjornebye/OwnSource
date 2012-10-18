@@ -60,7 +60,7 @@ namespace MB.Crammer
 
                 mDictionary.save(true);
                 setDirty();
-                cmdSave.Enabled = false;
+                toolStripButtonSave.Enabled = false;
             }
             catch (Exception ex)
             {
@@ -125,7 +125,7 @@ namespace MB.Crammer
                     return;
                 }
 
-                cmdSave.Enabled = true;
+                toolStripButtonSave.Enabled = true;
                 mDictionary.addEntry(entry);
                 //mDictionary.save();
                 //setDirty();
@@ -148,23 +148,14 @@ namespace MB.Crammer
 
         }
 
-        /// <summary>
-        /// Save the changes
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void cmdSave_Click(object sender, EventArgs e)
-        {
-        }
-
         #endregion
 
         #region Private Helpers
 
         private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
-            if (cmdSave.Enabled == false)
-                cmdSave.Enabled = true;
+            if (toolStripButtonSave.Enabled == false)
+                toolStripButtonSave.Enabled = true;
         }
 
 
@@ -218,7 +209,7 @@ namespace MB.Crammer
                 if (rows != null)
                 {
                     setDirty();
-                    cmdSave.Enabled = true;
+                    toolStripButtonSave.Enabled = true;
                     foreach (DataGridViewRow row in rows)
                     {
                         DictionaryEntry entry = (DictionaryEntry)row.Cells[3].Value;
@@ -244,7 +235,7 @@ namespace MB.Crammer
                     {
                         DictionaryEntry entry = (DictionaryEntry)row.Cells[3].Value;
                         mDictionary.removeEntry(entry);
-                        cmdSave.Enabled = true;
+                        toolStripButtonSave.Enabled = true;
                         dataGridView1.Rows.Remove(row);
                     }
                 }
@@ -262,7 +253,7 @@ namespace MB.Crammer
                 DataGridViewSelectedRowCollection rows = dataGridView1.SelectedRows;
                 if (rows != null)
                 {
-                    cmdSave.Enabled = true;
+                    toolStripButtonSave.Enabled = true;
                     foreach (DataGridViewRow row in rows)
                     {
                         row.Cells[2].Value = true;
@@ -282,7 +273,7 @@ namespace MB.Crammer
                 DataGridViewSelectedRowCollection rows = dataGridView1.SelectedRows;
                 if (rows != null)
                 {
-                    cmdSave.Enabled = true;
+                    toolStripButtonSave.Enabled = true;
                     foreach (DataGridViewRow row in rows)
                     {
                         row.Cells[2].Value = false;
@@ -299,7 +290,7 @@ namespace MB.Crammer
         private void allActiveMenuItem_Click(object sender, EventArgs e)
         {
             if (dataGridView1.Rows.Count > 0)
-                cmdSave.Enabled = true;
+                toolStripButtonSave.Enabled = true;
 
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             {
@@ -310,7 +301,7 @@ namespace MB.Crammer
         private void deactivateAllMenuItem_Click(object sender, EventArgs e)
         {
             if (dataGridView1.Rows.Count > 0)
-                cmdSave.Enabled = true;
+                toolStripButtonSave.Enabled = true;
 
             for (int i = 0; i < dataGridView1.Rows.Count; i++)
             {
@@ -381,7 +372,7 @@ namespace MB.Crammer
 
         private void ManageDictionary_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (cmdSave.Enabled == true)
+            if (toolStripButtonSave.Enabled == true)
             {
                 if (MessageBox.Show("You have made some changes without saving. Do you want to skip saving?", "Crammer", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.No)
                 {
