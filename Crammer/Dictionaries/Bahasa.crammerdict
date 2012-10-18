@@ -1,0 +1,31 @@
+<Root>
+  <Header>
+    <Title>Bahasa</Title>
+    <Fonts>
+      <a Name="Default" Size="26.25" Color="#FFFFFFFF" Bold="False" />
+      <b Name="Default" Size="20.25" Color="#FF800080" Bold="False" />
+    </Fonts>
+  </Header>
+  <Entries>
+    <r a="One" b="Satu" s="634601861353730000" on="1" />
+    <r a="Two" b="Dua" s="634601861530640000" on="1" />
+    <r a="Three" b="Tiga" s="634601861637520000" on="1" />
+    <r a="Four" b="Empat" s="634601861762100000" on="1" />
+    <r a="Five" b="Lima" s="634601861871310000" on="1" />
+    <r a="Six" b="Enam" s="634601861991730000" on="1" />
+    <r a="Seven" b="Tuju" s="634601862151510000" on="1" />
+    <r a="Eight" b="Lapan" s="634601863442610000" on="1" />
+    <r a="Nine" b="Sembilan" s="634601863780270000" on="1" />
+    <r a="Ten" b="Sepuluh" s="634601864019330000" on="1" />
+    <r a="Eleven" b="Sebelas" s="634601864553180000" on="1" />
+    <r a="Twelve" b="Dua Belas" s="634601864948890000" on="1" />
+    <r a="Thirteen" b="Tiga Belas" s="634601865321570000" on="1" />
+    <r a="Fourteen" b="Empat Belas" s="634601865605090000" on="1" />
+    <r a="Fifteen" b="Lima Belas" s="634601866093020000" on="1" />
+    <r a="Sixteen" b="Enam Belas" s="634601866627870000" on="1" />
+    <r a="Seventeen" b="Tujuh Belas" s="634601867013420000" on="1" />
+    <r a="Eighteen" b="Lapan Belas" s="634601867348540000" on="1" />
+    <r a="Nineteen" b="Sembilan Belas" s="634601867753130000" on="1" />
+    <r a="Twenty" b="Dua Puluh" s="634601868095030000" on="1" />
+  </Entries>
+</Root>

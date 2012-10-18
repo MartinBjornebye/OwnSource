@@ -1,0 +1,58 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Crammer.OptionsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Crammer Options" FontSize="26" Style="{StaticResource PhoneTextNormalStyle}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <HyperlinkButton Content="Start Over" FontSize="30" HorizontalContentAlignment="Left" Name="cmdStartOver" Click="cmdStartOver_Click" Margin="106,62,173,583" />
+            <HyperlinkButton Content="Flip Sequence" FontSize="30" Height="41" HorizontalContentAlignment="Left" Margin="106,107,137,540" Name="cmdFlipSequence" Click="cmdFlipSequence_Click"/>
+            <HyperlinkButton Content="Shuffle" FontSize="30" Height="46" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="106,227,0,0" Name="cmdShuffle" Click="cmdShuffle_Click" VerticalAlignment="Top" Width="124" />
+            <TextBlock Height="46" HorizontalAlignment="Left" Margin="87,8,0,0" Name="textBlock1" Text="Flow Control" FontSize="28" VerticalAlignment="Top" Width="167" />
+            <TextBlock FontSize="28" Height="46" HorizontalAlignment="Left" Margin="87,180,0,0" Name="textBlock2" Text="Sorting" VerticalAlignment="Top" Width="213" />
+            <HyperlinkButton Content="Ascending" FontSize="30"  Height="41" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Margin="106,265,0,0" Name="cmdAscending" Click="cmdAscending_Click" VerticalAlignment="Top" Width="177" />
+            <HyperlinkButton Content="Descending" FontSize="30" Height="41" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Margin="106,305,0,0" Name="cmdDescending" Click="cmdDescending_Click" VerticalAlignment="Top" Width="194" />
+            <HyperlinkButton Content="Time Ascending" FontSize="30" Height="41" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Margin="106,341,0,0" Name="cmdTimestampAscending" Click="cmdTimestampAscending_Click" VerticalAlignment="Top" Width="251" />
+            <HyperlinkButton Content="Time Descending" FontSize="30" Height="41" HorizontalContentAlignment="Left" Margin="106,377,99,0" Name="cmdTimestampDescending" Click="cmdTimestampDescending_Click" VerticalAlignment="Top" />
+            <TextBlock FontSize="28" Height="41" HorizontalAlignment="Left" Margin="87,450,0,0" Name="textBlock3" Text="Dictionary" VerticalAlignment="Top" Width="213" />
+            <HyperlinkButton Content="Open..." FontSize="30" Height="41" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Margin="106,489,0,0" Name="cmdOpen" Click="cmdOpen_Click" VerticalAlignment="Top" Width="124" />
+            <HyperlinkButton Content="New..." FontSize="30" Height="41" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Margin="106,525,0,0" Name="cmdNewDictionary" Click="cmdNewDictionary_Click" VerticalAlignment="Top" Width="124" />
+            <HyperlinkButton Content="Edit..." FontSize="30" Height="41" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Margin="106,565,0,0" Name="cmdEdit" Click="cmdEdit_Click" VerticalAlignment="Top" Width="124" />
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

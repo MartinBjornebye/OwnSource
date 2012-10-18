@@ -1,0 +1,170 @@
+Travers	#	På tverke
+Tympans	#	Trommehinner
+Malencontreux	#	Ulykksalig
+Clapotis	#	Skvulping
+Échantillons	#	Tverrsnitt
+Saupoudrer	#	Strø
+Broyer	#	Knuse
+Patron	#	Innehaver, mønster
+Horripilant	#	Irriterende, ekkelt
+Livresque	#	Teoretisk
+Égide	#	Vern, beskyttelse
+Têtu	#	Sta
+Maillon	#	Ledd
+Assainissement	#	Drenering, opprensing
+Aiguilleur	#	Sporveksel, flygeleder
+Gestionnaire	#	Administrator
+Gamme	#	Skala, utstrekning
+Sapeur	#	Ingeniørsoldat
+Impassible	#	Uberørt, ufølsom
+Calciné	#	Utbrente matrester
+Décombres	#	Ruiner, rester
+Pillard	#	Tyv
+Bourdonnement	#	Surring
+Colimacon	#	Spiral trapp
+Éructer	#	Skrike
+Beugler	#	Skrike
+Surmenage	#	Overarbeide
+Bosquet	#	Skogholt
+Écusson	#	Våpenskjold
+Rossignol	#	Nattergal
+Rigole	#	Grøft, kanal
+Troquet	#	Liten bar
+Piailler	#	Klynke
+Bave	#	Fråde
+Floue	#	Uklar
+Jauger	#	Måle
+Mettre au rancart	#	Kassere
+Étioler	#	Få til å blekne
+Préséance	#	Rekkefølge
+Coincé	#	Fast i en vanskelig situasjon
+Mater	#	Kue
+Râpeux	#	Ru
+Régaler	#	Spandere mat
+Postuler	#	Søke på en stilling
+Cotisation	#	Bidrag, gebyr
+Bouge	#	Bule
+Recension	#	Opptelling, folketelling
+Délit	#	Forbrytelse
+Jais	#	Kullsvart
+Tourbière	#	Torvmyr
+Patauger	#	Vasse, kave
+Égosiller	#	Skrike seg hes
+Maussade	#	Grinete, trist
+Orge	#	Bygg (korn)
+Frêne	#	Ask
+Ci-devant	#	Foregående, tidligere
+Coassement	#	Kvekking
+Lisière	#	Skogbryn
+Fredonner	#	Nynne
+Comptine	#	Barnesang
+Rabougris	#	Forkrøplet
+Écharde	#	Flis
+Dégarnir	#	Troppe tilbaketrekning, fjerne pynt
+Fugace	#	Flyktig
+Fauché	#	Blakk, ruinert
+Effilocher	#	Bli frynsete, rakne
+Crible	#	Sikt
+Aliéné	#	Gal person
+Ratissage	#	Finkjemming (av område)
+Hargneux	#	Aggressiv
+Lopin	#	Lite jordstykke
+Potiron	#	Gresskar
+Métèque	#	Mørkhudet utlending
+Engorger	#	Tette igjen
+Rafle	#	Razzia
+Écoper	#	Øse, få bot
+Défrayer	#	Betale, bekoste
+Lie	#	Berme
+Bander	#	Få stå
+Hérissé	#	Piggete hår
+Alliance	#	Bryllups ring
+Antichars	#	Antitank
+Bourses	#	Baller
+Poutre	#	Bjelke
+Fureter	#	Snoke
+Goulot	#	Flaskehals
+Joufflu	#	Kvapsete
+Brocanteur	#	Bruktselger
+Rogne	#	Sinne
+Vitupérer	#	Klandre
+Boudin	#	Blodpølse
+Chaux	#	Kalk
+Séquelles	#	Ettervirkninger
+Tremper	#	Fukte
+Cordonnier	#	Skomaker
+Pontage	#	Bypass operasjon
+En aval	#	Nedenfor
+Foulard	#	Halstørkle
+Bariolé	#	Spraglete
+Piquette	#	Dårlig vin
+Vareuse	#	Jakke
+Fléau	#	Pest
+Haut-le-coeur	#	Kvalme, brekning
+Remous	#	Uro
+Galons	#	Offiser salat
+Étrenner	#	Innvie
+Meule	#	Høystakk
+Dentifrice	#	Tannkrem
+Ruer	#	Fare avgårde, storme
+Essaims	#	Sverm
+Enjôler	#	Besnære
+Bâillonner	#	Kneble
+Drue	#	Kraftig (om e.g. Regnvær)
+Fondrière	#	Sølepytt/hull
+Glaise	#	Leire
+Dérapage	#	Sladd
+Motrice	#	Motordreven
+Crasseux	#	Skitten
+Mobilier	#	Innbo
+Surplomb	#	Utspring, overheng
+Scarabée	#	Bille
+Bestiole	#	Innsekt/kryp
+Dégouliner	#	Renne, sive
+Foutu	#	Ferdig, gåen
+Poêle	#	Komfyr
+Braquer	#	Sikte på
+Saillir	#	Stikke frem
+Divagation	#	Oversvømmelse
+Antigel	#	Frostvæske
+Convoi	#	Tropp
+Rafistoler	#	Lappet på
+Flancher	#	Svikte, gi etter
+Décaler	#	Forskyve, utsette
+Imprévisible	#	Uforutsigbar
+Cheminot	#	Jernbanearbeider
+Débordé	#	Neddynget, oversvømmet
+Crôute	#	Skorpe, gammel stabeis
+Gratte-ciel	#	Skyskraper
+Friabilité	#	Skjørhet
+Bigarré	#	Spraglet
+Couette	#	Dyne
+Randonnée	#	Langtur
+Limoger	#	Avskjedige
+Entraver	#	Binde, hemme
+Bayer aux corneilles	#	Stå og kope
+Étaler	#	Legge frem, demonstrere
+Sécateur	#	Hagesaks
+Grésiller	#	Frese, knitre
+Éterniser	#	Dra ut i tid
+Débouler	#	Tumle
+Chaire	#	Professorat, kateter
+Égrillarde	#	Løssluppen, lystig
+Enliser	#	Kjøre seg fast
+Lubie	#	Innfall
+Chiot	#	Valp
+Chaparder	#	Knabbe
+Baragouiner	#	Snakke gebrokkent
+Bruyère	#	Lyng
+Inverti	#	Omvendt, homo
+Hirondelle	#	Svale
+Bassin	#	Basseng, bekken
+Moelle	#	Marg
+Voilier	#	Seilbåt
+Torché	#	Tørket
+Brider	#	Stramme tøylene
+Navette	#	Skytteltog
+Tatillon	#	Pirkete
+Apparenter	#	Minne om
+Chalutier	#	Tråler
+Buvette	#	Kafé

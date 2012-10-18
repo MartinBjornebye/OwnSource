@@ -1,0 +1,6 @@
+Crammer is a clever memorizing tool helping you quickly move information from short-term to long-term memory.  
+Build up dictionaries of data you would like to memorize, and let the tool help you make the information stick. 
+All you have to do is answer truthfully whether you remember an entry or not.  
+Perfect for e.g. students in need of memorizing information, people learning new languages etc.
+A sample dictionary with the countries of the world and their capitals will get you started.  
+All entries can be sorted in various ways, shuffled etc. to challenge and improve memory retention.  

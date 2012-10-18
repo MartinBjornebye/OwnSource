@@ -1,0 +1,911 @@
+<Root>
+  <Header>
+    <Title>La Lumiere des Justes</Title>
+    <Fonts>
+      <a Name="Default" Size="26.25" Color="#FFFFFFFF" Bold="False" />
+      <b Name="Default" Size="20.25" Color="#FF800080" Bold="False" />
+    </Fonts>
+  </Header>
+  <Entries>
+    <r a="Picqué" b="Irritert" s="634606686662840615" on="1" />
+    <r a="Pupitre" b="Notestativ" s="634606686516362237" on="1" />
+    <r a="Archet" b="(Fiolin) bue" s="634606686465159308" on="1" />
+    <r a="Tournure" b="Uttrykksmåte" s="634606686215485027" on="1" />
+    <r a="Dédommagement" b="Erstatning" s="634606685709896109" on="1" />
+    <r a="Décemment" b="Anstendig" s="634606685346855345" on="1" />
+    <r a="Louer" b="Lovprise" s="634606684895669538" on="1" />
+    <r a="Fouler aux pieds" b="Underkue" s="634606684538549112" on="1" />
+    <r a="Calembour" b="Ordspill" s="634606683954635714" on="1" />
+    <r a="Cabotin" b="Dårlig skuespiller" s="634606683549452539" on="1" />
+    <r a="Voltiger" b="Flakse" s="634606683321459499" on="1" />
+    <r a="Déguerpir" b="Stikke av" s="634606683152179816" on="1" />
+    <r a="Auto-da-fe" b="Dom av inkvisisjonen" s="634606682847062365" on="1" />
+    <r a="Écorner" b="Slå hakk i" s="634606682360994563" on="1" />
+    <r a="Outrer" b="Irritere, provosere" s="634606682028035519" on="1" />
+    <r a="Gâchis" b="Rot og røre" s="634606681452122579" on="1" />
+    <r a="Délabrer" b="Ødelegge, ruinere" s="634606681153565502" on="1" />
+    <r a="Gueux" b="Tigger" s="634606680618614905" on="1" />
+    <r a="Lièvre" b="Hare" s="634606680415583292" on="1" />
+    <r a="Papillote" b="Aluminiumsfolie" s="634606680245103541" on="1" />
+    <r a="Inique" b="Urettferdig" s="634606679793267698" on="1" />
+    <r a="Écarteler" b="La slites i stykker" s="634606679512961665" on="1" />
+    <r a="Vert-de-gris" b="Irr" s="634606679106168398" on="1" />
+    <r a="Luxer" b="Forvri" s="634606678736807272" on="1" />
+    <r a="Viager" b="Livsvarig" s="634606677926180906" on="1" />
+    <r a="Épervier" b="Spurvehauk" s="634606677501936641" on="1" />
+    <r a="Émoustiller" b="Egge opp" s="634606676388052930" on="1" />
+    <r a="Langueur" b="Matthet" s="634606675970219032" on="1" />
+    <r a="Chaume" b="Halm" s="634606675637179983" on="1" />
+    <r a="Chanvre" b="Kirkesanger" s="634606675328392321" on="1" />
+    <r a="Dompter" b="Temme, beherske" s="634606674828633737" on="1" />
+    <r a="Vasistas" b="Glugge" s="634606673984405450" on="1" />
+    <r a="Éxalté" b="Begeistret, opphøyd" s="634606673704179422" on="1" />
+    <r a="Rébarbatif" b="Barsk, frastøtende" s="634606673140907204" on="1" />
+    <r a="Boulon" b="Bolt, nagle" s="634606672442197240" on="1" />
+    <r a="Paroi" b="Skillevegg" s="634606672142840118" on="1" />
+    <r a="Créance" b="Gjeld" s="634606671796930333" on="1" />
+    <r a="Enquérir" b="Forhøre seg" s="634606671480452232" on="1" />
+    <r a="Goutte" b="Gikt" s="634606671034786741" on="1" />
+    <r a="Mânes" b="Ånder" s="634606670631193657" on="1" />
+    <r a="Brouille" b="Røre, virvar" s="634606670273833217" on="1" />
+    <r a="Bréviaire" b="Bønnebok" s="634606669163689721" on="1" />
+    <r a="Altier" b="Overlegen, stolt" s="634606668860422375" on="1" />
+    <r a="Égout" b="Kloakk" s="634606668213705385" on="1" />
+    <r a="Sémillant" b="Sprudlende" s="634606667110032258" on="1" />
+    <r a="Svelte" b="Slank, smekker" s="634606666783893604" on="1" />
+    <r a="Brevet" b="Vitnemål" s="634606666395261375" on="1" />
+    <r a="Écrou" b="Fengslingskjennelse" s="634606666039901050" on="1" />
+    <r a="Persiflage" b="Hån" s="634606665193282626" on="1" />
+    <r a="Indu" b="Upassende" s="634606664783129167" on="1" />
+    <r a="Ébruiter" b="Spre rykte om" s="634606663618592559" on="1" />
+    <r a="Livrée" b="Tjeneruniform" s="634606662849478568" on="1" />
+    <r a="Piètre" b="Ussel" s="634606662459326253" on="1" />
+    <r a="Sbire" b="Spaner" s="634600135376592672" on="1" />
+    <r a="Induire" b="Forføre" s="634600134333803027" on="1" />
+    <r a="Dindon" b="Kalkun" s="634600133799812485" on="1" />
+    <r a="Nuire" b="Skade" s="634600133519896475" on="1" />
+    <r a="Livrèe" b="Tjeneruniform" s="634600132719350686" on="1" />
+    <r a="Froc" b="Bukse" s="634600132126566781" on="1" />
+    <r a="Laurier" b="Laurbærtre" s="634600131525932426" on="1" />
+    <r a="Escamoter" b="Få til å forsvinne" s="634600131152661076" on="1" />
+    <r a="Boutade" b="Innfall" s="634600130683544245" on="1" />
+    <r a="Taudis" b="Svinesti" s="634600130244599138" on="1" />
+    <r a="Nigaud" b="Enfoldig" s="634600129876758099" on="1" />
+    <r a="Bêcher" b="Grave, rakke ned på" s="634600129605892606" on="1" />
+    <r a="Obole" b="Almisse" s="634600129094143336" on="1" />
+    <r a="Lunette" b="Brille, åpning" s="634600128374712187" on="1" />
+    <r a="Clocher" b="Klokketårn" s="634600127757526886" on="1" />
+    <r a="Fange" b="Skitt, fornedrelse" s="634600127182413991" on="1" />
+    <r a="Versant" b="Dalside" s="634600126500905011" on="1" />
+    <r a="Grève" b="Streik eller elvebredd" s="634600126140274384" on="1" />
+    <r a="Garnement" b="Slyngel" s="634600125396731856" on="1" />
+    <r a="Avare" b="Gjerrig" s="634549916084896766" on="1" />
+    <r a="Affiler" b="Kvesse" s="634549915804590733" on="1" />
+    <r a="Embrouiller" b="Skape forviklinger" s="634549915410998221" on="1" />
+    <r a="Grossièrté" b="Uforskammethet" s="634549914679166363" on="1" />
+    <r a="Sournois" b="Lumsk" s="634549914276373324" on="1" />
+    <r a="Fouille" b="Utgraving" s="634549913925103233" on="1" />
+    <r a="Suranné" b="Avleggs" s="634549913610545241" on="1" />
+    <r a="Coterie" b="Gjeng, klikk" s="634549913296307268" on="1" />
+    <r a="Foison" b="Overflod" s="634549912870232897" on="1" />
+    <r a="Chétif" b="Skrøpelig" s="634549912487040980" on="1" />
+    <r a="Femmelette" b="Svekling" s="634549912081047759" on="1" />
+    <r a="Contravention" b="Lovovertredelse" s="634549911192666946" on="1" />
+    <r a="Ménagement" b="Hensyn" s="634549910792274045" on="1" />
+    <r a="Rechigner" b="Sutre over" s="634549909900363031" on="1" />
+    <r a="Singulier" b="Bemerkelsesverdig" s="634549909486299348" on="1" />
+    <r a="Fûté" b="Utspekulert" s="634549909113548027" on="1" />
+    <r a="Fuyard" b="Flyktning" s="634548870441878462" on="1" />
+    <r a="Cornichon" b="Fjols" s="634548870190594090" on="1" />
+    <r a="Ronce" b="Bjørnebærbusk" s="634548869756049235" on="1" />
+    <r a="Escarpin" b="Lakksko" s="634548869461892410" on="1" />
+    <r a="Contre-bas" b="Under" s="634548869078380475" on="1" />
+    <r a="Sillon" b="Plogfure" s="634548868436783777" on="1" />
+    <r a="Abreuvoir" b="Vanningssted" s="634548868062952395" on="1" />
+    <r a="Saule" b="Pil" s="634548867699681618" on="1" />
+    <r a="Blottir" b="Trekke seg mot" s="634548867358242088" on="1" />
+    <r a="Capon" b="Feiging" s="634548866978810386" on="1" />
+    <r a="Présage" b="Forutanelse" s="634548866634020665" on="1" />
+    <r a="Marronnier" b="Kastanjetre" s="634548865086602158" on="1" />
+    <r a="Meurtrir" b="Mørbanke" s="634548864152958757" on="1" />
+    <r a="Filigrane" b="Vannmerke" s="634548863635829179" on="1" />
+    <r a="Doléances" b="Klagemål" s="634548863311350619" on="1" />
+    <r a="Devis" b="Pris" s="634548863002152934" on="1" />
+    <r a="Faste" b="Heldig" s="634548862787840676" on="1" />
+    <r a="Batelier" b="Båtfører" s="634548862522485499" on="1" />
+    <r a="Inusité" b="Sjelden" s="634548861584341840" on="1" />
+    <r a="Prôner" b="Skryte av" s="634548860516440760" on="1" />
+    <r a="Or" b="Imidlertid, men" s="634548859850292658" on="1" />
+    <r a="Coudrier" b="Hassel" s="634548859549295442" on="1" />
+    <r a="Liège" b="Kork" s="634548852281687337" on="1" />
+    <r a="Missel" b="Messebok" s="634548850815813494" on="1" />
+    <r a="À l'instar de" b="Som" s="634548850411030342" on="1" />
+    <r a="Bouder" b="Furte" s="634548849764793379" on="1" />
+    <r a="Volupté" b="Vellyst" s="634548849400632550" on="1" />
+    <r a="Leste" b="Lettbeint, løsmunnet" s="634548848924965344" on="1" />
+    <r a="Furibond" b="Rasende" s="634548848560334488" on="1" />
+    <r a="Entrave" b="Tjor" s="634548847953219763" on="1" />
+    <r a="Affadir" b="Gjøre smakløs" s="634548847548986642" on="1" />
+    <r a="Aspérité" b="Ruhet, barskhet" s="634548846871877914" on="1" />
+    <r a="Chanoine" b="Medlem av prestekollegium" s="634548845778975403" on="1" />
+    <r a="Pénurie" b="Mangel" s="634343655105625000" on="1" />
+    <r a="Tibia" b="Skinneben" s="634343445523437500" on="1" />
+    <r a="Poteau" b="Stolpe" s="634333740386870228" on="1" />
+    <r a="Berner" b="Holde for narr" s="634333740362508835" on="1" />
+    <r a="Loqueteux" b="Fillete" s="634333740331937086" on="1" />
+    <r a="Palissade" b="Gjerde" s="634333740257312818" on="1" />
+    <r a="Ankylosé" b="Ledd som er låst fast" s="634333740200309558" on="1" />
+    <r a="Grêle" b="Tynn" s="634333740170887875" on="1" />
+    <r a="Grabataire" b="Sengeliggende" s="634333740089693231" on="1" />
+    <r a="Brancard" b="Sykebåre" s="634333740034950100" on="1" />
+    <r a="Potelé" b="Lubben" s="634333739935194394" on="1" />
+    <r a="Bricole" b="Trekksele" s="634333739863940318" on="1" />
+    <r a="Compassé" b="Stiv, avmålt" s="634333739800196672" on="1" />
+    <r a="Ratatiner" b="Skrumpe inn" s="634333739717321932" on="1" />
+    <r a="Pieu" b="Staur" s="634333739666329016" on="1" />
+    <r a="Rabot" b="Høvel" s="634333739631066999" on="1" />
+    <r a="Prélasser" b="Slappe av" s="634333739501699599" on="1" />
+    <r a="Coriace" b="Vanskelig å overvinne" s="634333739440016071" on="1" />
+    <r a="Dépit" b="Ergrelse" s="634333739249925199" on="1" />
+    <r a="Intrigant" b="Utspekulert" s="634333739089746037" on="1" />
+    <r a="Fourgonner" b="Romstere" s="634333738926266687" on="1" />
+    <r a="Compatit" b="Forståelsesfull" s="634333738835711507" on="1" />
+    <r a="Ramure" b="Gevir" s="634333738704263989" on="1" />
+    <r a="Convier" b="Oppfordre" s="634333738608648520" on="1" />
+    <r a="Froment" b="Hvete" s="634333738482291293" on="1" />
+    <r a="Fougue" b="Begeistring, lidenskap" s="634333738406716970" on="1" />
+    <r a="Labour" b="Pløyd mark" s="634333738218476203" on="1" />
+    <r a="Déconfit" b="Nedslått" s="634333738087588717" on="1" />
+    <r a="Pécule" b="Opptjent lønn" s="634333737860905751" on="1" />
+    <r a="Fat" b="Forfengelig" s="634333737681275477" on="1" />
+    <r a="Sevrer" b="Avvenne" s="634333737528666748" on="1" />
+    <r a="Moyeu" b="Nav" s="634333737337405809" on="1" />
+    <r a="Vase" b="Gjørme" s="634333737229419632" on="1" />
+    <r a="Encadrer" b="Omkranse" s="634333737175606555" on="1" />
+    <r a="Émpaté" b="Tykk" s="634333737103222414" on="1" />
+    <r a="Sollicitude" b="Omsorg" s="634333736151117957" on="1" />
+    <r a="Rade" b="Havnebasseng" s="634333736061112809" on="1" />
+    <r a="Racontar" b="Sladder" s="634333735990798787" on="1" />
+    <r a="Courroie" b="Rem" s="634333735764865865" on="1" />
+    <r a="Désemparé" b="Rådløs, forvirret" s="634333735617877457" on="1" />
+    <r a="Remorquer" b="Slepe" s="634333735522992030" on="1" />
+    <r a="Décharné" b="Mager" s="634333735476689382" on="1" />
+    <r a="Vitupérer" b="Klandre" s="634333735430556743" on="1" />
+    <r a="Fulgurant" b="Lysende" s="634333735361382787" on="1" />
+    <r a="Mièvre" b="Pregløs" s="634333735176312201" on="1" />
+    <r a="Avanies" b="Fornærmelser" s="634333734856813927" on="1" />
+    <r a="Laie" b="Sti" s="634333734804500935" on="1" />
+    <r a="Cocasse" b="Morsom" s="634333734628060843" on="1" />
+    <r a="Grivoiserie" b="Løssluppenhet" s="634333734597699107" on="1" />
+    <r a="Dégourdir" b="Myke opp" s="634333734548936318" on="1" />
+    <r a="Vanter" b="Berømme" s="634333734523634870" on="1" />
+    <r a="Raboteux" b="Ujevn, ru" s="634333734492503090" on="1" />
+    <r a="Litière" b="Bærestol" s="634333734332193921" on="1" />
+    <r a="Fagoter" b="Kle seg smakløst" s="634333734214637197" on="1" />
+    <r a="Enduit" b="Strøk, belegg" s="634333734114321459" on="1" />
+    <r a="Bredouille" b="Tomhendt" s="634333733908829706" on="1" />
+    <r a="Tasser" b="Stue sammen" s="634333733817894504" on="1" />
+    <r a="Défoncer" b="Slå inn" s="634333733733889700" on="1" />
+    <r a="Postiche" b="Uekte" s="634333733648204799" on="1" />
+    <r a="Jante" b="Hjulfelg" s="634333733615202911" on="1" />
+    <r a="Boyaux" b="Innvoller" s="634333733564009983" on="1" />
+    <r a="Froufrou" b="Rasling" s="634333733489015694" on="1" />
+    <r a="Chafouine" b="Slu" s="634333733323456224" on="1" />
+    <r a="Plaie" b="Åpent sår" s="634333733296644691" on="1" />
+    <r a="Engouement" b="Overbegeistring" s="634333732975276309" on="1" />
+    <r a="Épave" b="Hittegods, vrak" s="634333732953525065" on="1" />
+    <r a="Saugrenue" b="Overraskende, komisk" s="634333732897651869" on="1" />
+    <r a="Sangle" b="Rem, stropp" s="634333732738462764" on="1" />
+    <r a="Mendicité" b="Tigging" s="634333732625036277" on="1" />
+    <r a="Ébréché" b="Lage hakk" s="634333732563522758" on="1" />
+    <r a="Interstice" b="Mellomrom" s="634333732499589102" on="1" />
+    <r a="Fêve" b="Bønne" s="634333732223413305" on="1" />
+    <r a="Féru" b="Glødende opptatt av" s="634333732097596109" on="1" />
+    <r a="Soubrette" b="Hushjelp" s="634333732015661423" on="1" />
+    <r a="Fémur" b="Lårben" s="634333731931846629" on="1" />
+    <r a="Boussole" b="Kompass" s="634333731893404430" on="1" />
+    <r a="Taillader" b="Skjære, kutte" s="634333731791228586" on="1" />
+    <r a="Rayon" b="Eiker" s="634333731767037202" on="1" />
+    <r a="Carillon" b="Klokkespill" s="634333731641230006" on="1" />
+    <r a="En-cas" b="Nistemat" s="634333731612918387" on="1" />
+    <r a="Chevrotant" b="Skjelvende" s="634333731548424698" on="1" />
+    <r a="Deniers" b="Av egne lommer" s="634333731503602134" on="1" />
+    <r a="Penaude" b="Flau etter en tabbe" s="634333731387535496" on="1" />
+    <r a="Porche" b="Portrom" s="634333731184113861" on="1" />
+    <r a="Aphone" b="Mistet stemmen" s="634333731157862359" on="1" />
+    <r a="Pétrir" b="Massere, forme" s="634333731112119743" on="1" />
+    <r a="Aguicher" b="Egge" s="634333730995293061" on="1" />
+    <r a="Ravauder" b="Stoppe (strømper)" s="634333730871355972" on="1" />
+    <r a="Verge" b="Stokk" s="634333730848864686" on="1" />
+    <r a="Veulerie" b="Slapphet" s="634333730772740332" on="1" />
+    <r a="Fenaison" b="Høyonn" s="634333730755109323" on="1" />
+    <r a="Incartade" b="Utskeielse" s="634333730725107607" on="1" />
+    <r a="Disette" b="Hungersnød" s="634333730649173264" on="1" />
+    <r a="Réquisitoire" b="Anklage" s="634333730604370701" on="1" />
+    <r a="Exaction" b="Maktmisbruk" s="634333730527486304" on="1" />
+    <r a="Volage" b="Flyktig, lettsindig, troløs" s="634333730467672883" on="1" />
+    <r a="Indigent" b="Fattig" s="634333730385968209" on="1" />
+    <r a="Fourbu" b="Utmattet" s="634333730219048662" on="1" />
+    <r a="Bougre" b="Fordømt" s="634333730159065231" on="1" />
+    <r a="Combler" b="Fylle" s="634333730100761897" on="1" />
+    <r a="À Croupetons" b="På huk" s="634319179576856744" on="1" />
+    <r a="À tâtons" b="Famlende" s="634319179576856744" on="1" />
+    <r a="Abnégation" b="Forsakelse" s="634319179576856744" on="1" />
+    <r a="Abréger" b="Forkorte" s="634319179576856744" on="1" />
+    <r a="Acajou" b="Mahogni" s="634319179576856744" on="1" />
+    <r a="Accaparer" b="Legge beslag på" s="634319179576856744" on="1" />
+    <r a="Accoutrement" b="Utspjåking" s="634319179576856744" on="1" />
+    <r a="Acoquiner" b="Stå i med noen" s="634319179576856744" on="1" />
+    <r a="Affranchir" b="Frigi" s="634319179576856744" on="1" />
+    <r a="Agrémenter" b="Gjøre behagelig" s="634319179576856744" on="1" />
+    <r a="Agrés" b="Rigg" s="634319179576856744" on="1" />
+    <r a="Aguerrir" b="Herde" s="634319179576856744" on="1" />
+    <r a="Ahuris" b="Overrasket" s="634319179576856744" on="1" />
+    <r a="Aïeule" b="Bestemor" s="634319179576856744" on="1" />
+    <r a="Aigrette" b="Fjærbusk" s="634319179576856744" on="1" />
+    <r a="Airelles" b="Tyttebær" s="634319179576856744" on="1" />
+    <r a="Algarade" b="Uoverenstemmelse" s="634319179576856744" on="1" />
+    <r a="Aliter" b="Legge seg" s="634319179576856744" on="1" />
+    <r a="Alléger" b="Gjøre lettere" s="634319179576856744" on="1" />
+    <r a="Alouette" b="Lerke" s="634319179576856744" on="1" />
+    <r a="Amadou" b="Knusk" s="634319179576856744" on="1" />
+    <r a="Ameuter" b="Skake, skremme" s="634319179576856744" on="1" />
+    <r a="Amoncellement" b="Opphopning" s="634319179576856744" on="1" />
+    <r a="Amorti" b="Dempet" s="634319179576856744" on="1" />
+    <r a="Anodin" b="Harmløs" s="634319179576856744" on="1" />
+    <r a="Appas" b="Forførende egenskaper" s="634319179576856744" on="1" />
+    <r a="Appât" b="Lokkemat" s="634319179576856744" on="1" />
+    <r a="Appentis" b="Skur" s="634319179576856744" on="1" />
+    <r a="Arbuste" b="Busk" s="634319179576856744" on="1" />
+    <r a="Ardoise" b="Skifer" s="634319179576856744" on="1" />
+    <r a="Arrimer" b="Stue" s="634319179576856744" on="1" />
+    <r a="Assentiment" b="Samtykke" s="634319179576856744" on="1" />
+    <r a="Assiduité" b="Flid" s="634319179576856744" on="1" />
+    <r a="Astreignant" b="Tvingende" s="634319179576856744" on="1" />
+    <r a="Astreindre" b="Forplikte" s="634319179576856744" on="1" />
+    <r a="Âtre" b="Ildsted" s="634319179576856744" on="1" />
+    <r a="Aubaine" b="Flaks" s="634319179576856744" on="1" />
+    <r a="Auriculaire" b="Hørsel" s="634319179576856744" on="1" />
+    <r a="Auscultation" b="Lytting" s="634319179576856744" on="1" />
+    <r a="Autochtone" b="Innfødt" s="634319179576856744" on="1" />
+    <r a="Auvent" b="Vindfang" s="634319179576856744" on="1" />
+    <r a="Avenant" b="Behagelig" s="634319179576856744" on="1" />
+    <r a="Avilir" b="Forringe, ydmyke" s="634319179576856744" on="1" />
+    <r a="Aviron" b="Roing, åre" s="634319179576856744" on="1" />
+    <r a="Avoine" b="Havre" s="634319179576856744" on="1" />
+    <r a="Avoir tort" b="Ta feil av" s="634319179576856744" on="1" />
+    <r a="Bac" b="Ferge" s="634319179576856744" on="1" />
+    <r a="Bâche" b="Presenning" s="634319179576856744" on="1" />
+    <r a="Badaud" b="Skuelysten" s="634319179576856744" on="1" />
+    <r a="Badigeonner" b="Kalke" s="634319179576856744" on="1" />
+    <r a="Badine" b="Spøk" s="634319179576856744" on="1" />
+    <r a="Bagne" b="Straffarbeid" s="634319179576856744" on="1" />
+    <r a="Baies" b="Bær" s="634319179576856744" on="1" />
+    <r a="Baladin" b="Gjøgler" s="634319179576856744" on="1" />
+    <r a="Balafre" b="Kutt, flenge" s="634319179576856744" on="1" />
+    <r a="Balourd" b="Klønete, toskete" s="634319179576856744" on="1" />
+    <r a="Baluchon" b="Klesbylt" s="634319179576856744" on="1" />
+    <r a="Baquet" b="Balje" s="634319179576856744" on="1" />
+    <r a="Barboter" b="Plaske" s="634319179576856744" on="1" />
+    <r a="Baril" b="Tønne" s="634319179576856744" on="1" />
+    <r a="Basané" b="Brun av sol" s="634319179576856744" on="1" />
+    <r a="Bastingage" b="Reling" s="634319179576856744" on="1" />
+    <r a="Béatitude" b="Lykksalighet" s="634319179576856744" on="1" />
+    <r a="Besicles" b="Briller for gamle" s="634319179576856744" on="1" />
+    <r a="Bévue" b="Tabbe" s="634319179576856744" on="1" />
+    <r a="Biais" b="Måte å nærme seg noe på" s="634319179576856744" on="1" />
+    <r a="Bicoque" b="Rønne, skur" s="634319179576856744" on="1" />
+    <r a="Bise" b="Nordavind" s="634319179576856744" on="1" />
+    <r a="Blafard" b="Blek" s="634319179576856744" on="1" />
+    <r a="Blaireau" b="Grevling" s="634319179576856744" on="1" />
+    <r a="Blême" b="Likblek" s="634319179576856744" on="1" />
+    <r a="Bocal" b="Syltetøy glass" s="634319179576856744" on="1" />
+    <r a="Boiserie" b="Panel, treverk" s="634319179576856744" on="1" />
+    <r a="Bombé" b="Som buler ut" s="634319179576856744" on="1" />
+    <r a="Bomber le torse" b="Gjøre seg rakrygget" s="634319179576856744" on="1" />
+    <r a="Borgne" b="Enøyd" s="634319179576856744" on="1" />
+    <r a="Borne" b="Merkestein" s="634319179576856744" on="1" />
+    <r a="Bouleaux" b="Bjerketrær" s="634319179576856744" on="1" />
+    <r a="Boulier" b="Kuleramme" s="634319179576856744" on="1" />
+    <r a="Bourbier" b="Gjørmehull" s="634319179576856744" on="1" />
+    <r a="Bourgade" b="Liten landsby" s="634319179576856744" on="1" />
+    <r a="Bourrasque" b="Stormkast" s="634319179576856744" on="1" />
+    <r a="Brassard" b="Armbind" s="634319179576856744" on="1" />
+    <r a="Brebis" b="Hunn sau" s="634319179576856744" on="1" />
+    <r a="Bredouiller" b="Snøvle" s="634319179576856744" on="1" />
+    <r a="Brindille" b="Tørr kvist" s="634319179576856744" on="1" />
+    <r a="Brioche" b="Bolle" s="634319179576856744" on="1" />
+    <r a="Broc" b="Mugge" s="634319179576856744" on="1" />
+    <r a="Brouette" b="Trillebår" s="634319179576856744" on="1" />
+    <r a="Brouillon" b="Kladd" s="634319179576856744" on="1" />
+    <r a="Brusqué" b="Behandle noen røft" s="634319179576856744" on="1" />
+    <r a="Bûche" b="Ved" s="634319179576856744" on="1" />
+    <r a="Bûcheron" b="Tømmerhogger" s="634319179576856744" on="1" />
+    <r a="Bulle" b="Boble" s="634319179576856744" on="1" />
+    <r a="Cabrer" b="Steile" s="634319179576856744" on="1" />
+    <r a="Cacheter" b="Forsegle" s="634319179576856744" on="1" />
+    <r a="Cafard" b="Kakerlakk" s="634319179576856744" on="1" />
+    <r a="Cahot" b="Hump" s="634319179576856744" on="1" />
+    <r a="Caille" b="Vaktel" s="634319179576856744" on="1" />
+    <r a="Calepin" b="Notisbok" s="634319179576856744" on="1" />
+    <r a="Califourchon" b="Over skrevs" s="634319179576856744" on="1" />
+    <r a="Calvitie" b="Skallethet" s="634319179576856744" on="1" />
+    <r a="Cambrer" b="Rette ryggen" s="634319179576856744" on="1" />
+    <r a="Cambrer la taille" b="Rette ryggen" s="634319179576856744" on="1" />
+    <r a="Canapé" b="Liten sofa" s="634319179576856744" on="1" />
+    <r a="Canif" b="Lommekniv" s="634319179576856744" on="1" />
+    <r a="Caniveau" b="Rennesten" s="634319179576856744" on="1" />
+    <r a="Cantonner" b="Innkvartere" s="634319179576856744" on="1" />
+    <r a="Caracoler" b="Fare hit og dit" s="634319179576856744" on="1" />
+    <r a="Carapace" b="Skall (på dyr)" s="634319179576856744" on="1" />
+    <r a="Carnassier" b="Kjøttetende" s="634319179576856744" on="1" />
+    <r a="Carnation" b="Hudfarge" s="634319179576856744" on="1" />
+    <r a="Carrelage" b="Flislegging" s="634319179576856744" on="1" />
+    <r a="Carrosse" b="Vogn" s="634319179576856744" on="1" />
+    <r a="Carrure" b="Skulderbredde" s="634319179576856744" on="1" />
+    <r a="Cataracte" b="Foss, vannfall" s="634319179576856744" on="1" />
+    <r a="Cerceaux" b="Bøyle" s="634319179576856744" on="1" />
+    <r a="Cerné" b="Omringet" s="634319179576856744" on="1" />
+    <r a="Chamailler" b="Krangle" s="634319179576856744" on="1" />
+    <r a="Champêtre" b="Landlig" s="634319179576856744" on="1" />
+    <r a="Chandelle" b="Vokslys" s="634319179576856744" on="1" />
+    <r a="Charnue" b="Kjøttfull" s="634319179576856744" on="1" />
+    <r a="Charogne" b="Åtsel" s="634319179576856744" on="1" />
+    <r a="Charrette" b="Kjerre" s="634319179576856744" on="1" />
+    <r a="Chassé-croisé" b="Plassbytte" s="634319179576856744" on="1" />
+    <r a="Châtaignier" b="Kastanjetre" s="634319179576856744" on="1" />
+    <r a="Chenal" b="Innløp" s="634319179576856744" on="1" />
+    <r a="Chêne" b="Eik" s="634319179576856744" on="1" />
+    <r a="Chenille" b="Larve" s="634319179576856744" on="1" />
+    <r a="Cheptel" b="Besetning" s="634319179576856744" on="1" />
+    <r a="Chère" b="Mat" s="634319179576856744" on="1" />
+    <r a="Chiffon" b="Fille" s="634319179576856744" on="1" />
+    <r a="Chiourme" b="Gjeng med fanger" s="634319179576856744" on="1" />
+    <r a="Chique" b="Skråtobakk" s="634319179576856744" on="1" />
+    <r a="Chiquenode" b="Knips" s="634319179576856744" on="1" />
+    <r a="Choux" b="Kål" s="634319179576856744" on="1" />
+    <r a="Citadin" b="Byboer" s="634319179576856744" on="1" />
+    <r a="Clairsemé" b="Glissen" s="634319179576856744" on="1" />
+    <r a="Clavecin" b="Cembalo" s="634319179576856744" on="1" />
+    <r a="Clochette" b="Bjelle" s="634319179576856744" on="1" />
+    <r a="Cocarde" b="Rosett" s="634319179576856744" on="1" />
+    <r a="Cogner" b="Banke" s="634319179576856744" on="1" />
+    <r a="Coiffe" b="Hatt, lue" s="634319179576856744" on="1" />
+    <r a="Colin-maillard" b="Blindebukk" s="634319179576856744" on="1" />
+    <r a="Collation" b="Lett måltid" s="634319179576856744" on="1" />
+    <r a="Colombe" b="Due" s="634319179576856744" on="1" />
+    <r a="Colporteur" b="Selger" s="634319179576856744" on="1" />
+    <r a="Commissures" b="Munnviker" s="634319179576856744" on="1" />
+    <r a="Comparaître" b="Møte for retten" s="634319179576856744" on="1" />
+    <r a="Compatire" b="Føle medlidenhet" s="634319179576856744" on="1" />
+    <r a="Complaire" b="Gjøre til lags" s="634319179576856744" on="1" />
+    <r a="Conciliabule" b="Hemmelig møte" s="634319179576856744" on="1" />
+    <r a="Concorde" b="Harmoni, enstemmighet" s="634319179576856744" on="1" />
+    <r a="Congénitale" b="Medfødt" s="634319179576856744" on="1" />
+    <r a="Conjuration" b="Sammensvergelse" s="634319179576856744" on="1" />
+    <r a="Contrarier" b="By imot" s="634319179576856744" on="1" />
+    <r a="Contrariété" b="Motgang, forargelse" s="634319179576856744" on="1" />
+    <r a="Convive" b="Middags gjest" s="634319179576856744" on="1" />
+    <r a="Convoitise" b="Begjær" s="634319179576856744" on="1" />
+    <r a="Convoler" b="Gifte seg" s="634319179576856744" on="1" />
+    <r a="Copieux" b="Rikelig" s="634319179576856744" on="1" />
+    <r a="Coquelicot" b="Valmue" s="634319179576856744" on="1" />
+    <r a="Coqueluche" b="Kjæledegge, kikhoste" s="634319179576856744" on="1" />
+    <r a="Corbeau" b="Ravn" s="634319179576856744" on="1" />
+    <r a="Corne" b="Horn" s="634319179576856744" on="1" />
+    <r a="Corneille" b="Kråke" s="634319179576856744" on="1" />
+    <r a="Corvée" b="Straffange" s="634319179576856744" on="1" />
+    <r a="Cossue" b="Velstående" s="634319179576856744" on="1" />
+    <r a="Couler à pic" b="Synke" s="634319179576856744" on="1" />
+    <r a="Courbette" b="Knefall, bukking" s="634319179576856744" on="1" />
+    <r a="Courroux" b="Forargelse" s="634319179576856744" on="1" />
+    <r a="Coutelas" b="Stor kjøkkenkniv" s="634319179576856744" on="1" />
+    <r a="Coutellerie" b="Knivbutikk" s="634319179576856744" on="1" />
+    <r a="Couture" b="Søm" s="634319179576856744" on="1" />
+    <r a="Cramoisi" b="Mørkerød" s="634319179576856744" on="1" />
+    <r a="Cramponner" b="Klamre seg til" s="634319179576856744" on="1" />
+    <r a="Cravache" b="Ridepisk" s="634319179576856744" on="1" />
+    <r a="Crinière" b="Man på hest" s="634319179576856744" on="1" />
+    <r a="Croisée" b="Veikryss" s="634319179576856744" on="1" />
+    <r a="Croquis" b="Skisse" s="634319179576856744" on="1" />
+    <r a="Crosse" b="Geværkolbe" s="634319179576856744" on="1" />
+    <r a="Crottin" b="Hestemøkk" s="634319179576856744" on="1" />
+    <r a="Croulante" b="Falleferdig" s="634319179576856744" on="1" />
+    <r a="Crue" b="Høyvann" s="634319179576856744" on="1" />
+    <r a="Cueillette" b="Høsting" s="634319179576856744" on="1" />
+    <r a="Cuirasse" b="Rustning" s="634319179576856744" on="1" />
+    <r a="Culotte" b="Bukser" s="634319179576856744" on="1" />
+    <r a="Cuver" b="Gjære, sove rusen ut" s="634319179576856744" on="1" />
+    <r a="Cuvette" b="Oppvaskkum" s="634319179576856744" on="1" />
+    <r a="Débâcle" b="Issmelting" s="634319179576856744" on="1" />
+    <r a="Déballer" b="Pakke ut" s="634319179576856744" on="1" />
+    <r a="Déboire" b="Bitterhet" s="634319179576856744" on="1" />
+    <r a="Dèboulonner" b="Demontere" s="634319179576856744" on="1" />
+    <r a="Dèbrouiller" b="Greie ut" s="634319179576856744" on="1" />
+    <r a="Déchéance" b="Forfall" s="634319179576856744" on="1" />
+    <r a="Dèchu" b="Fallen, avsatt" s="634319179576856744" on="1" />
+    <r a="Décommander" b="Avbestille" s="634319179576856744" on="1" />
+    <r a="Décrotter" b="Børste" s="634319179576856744" on="1" />
+    <r a="Défricher" b="Dyrke jord" s="634319179576856744" on="1" />
+    <r a="Dégarni" b="Glattbarbert" s="634319179576856744" on="1" />
+    <r a="Dégrafer" b="Hekte av" s="634319179576856744" on="1" />
+    <r a="Dégriser" b="Gjøre edru" s="634319179576856744" on="1" />
+    <r a="Délateur" b="Angiver" s="634319179576856744" on="1" />
+    <r a="Délier" b="Løsne" s="634319179576856744" on="1" />
+    <r a="Démence" b="Galskap, vannvidd" s="634319179576856744" on="1" />
+    <r a="Démission" b="Avgang, fratredelse" s="634319179576856744" on="1" />
+    <r a="Démordre" b="Stå på sitt" s="634319179576856744" on="1" />
+    <r a="Denrée" b="Mat" s="634319179576856744" on="1" />
+    <r a="Dentelle" b="Knipling" s="634319179576856744" on="1" />
+    <r a="Dépassement" b="Forbikjøring" s="634319179576856744" on="1" />
+    <r a="Dépaysement" b="Fremmedgjøring" s="634319179576856744" on="1" />
+    <r a="Dépeigné" b="Ustelt" s="634319179576856744" on="1" />
+    <r a="Dépotoir" b="Avfallsplass" s="634319179576856744" on="1" />
+    <r a="Dépouiller" b="Berøve" s="634319179576856744" on="1" />
+    <r a="Désabusé" b="Desillusjonert" s="634319179576856744" on="1" />
+    <r a="Désinvolte" b="Ledig, ubesværet" s="634319179576856744" on="1" />
+    <r a="Désuète" b="Avleggs" s="634319179576856744" on="1" />
+    <r a="Dètaler" b="Stikke av" s="634319179576856744" on="1" />
+    <r a="Déteindre" b="Farge av på" s="634319179576856744" on="1" />
+    <r a="Détresse" b="Nød, angst" s="634319179576856744" on="1" />
+    <r a="Devancier" b="Forgjenger" s="634319179576856744" on="1" />
+    <r a="Devanture" b="Fasade" s="634319179576856744" on="1" />
+    <r a="Devinette" b="Gåte" s="634319179576856744" on="1" />
+    <r a="Dévouement" b="Hengivelse" s="634319179576856744" on="1" />
+    <r a="Diaphane" b="Gjennomsiktig" s="634319179576856744" on="1" />
+    <r a="Dimanche de Rameaux" b="Palme søndag" s="634319179576856744" on="1" />
+    <r a="Dogue" b="Bulldog" s="634319179576856744" on="1" />
+    <r a="Donner à bail" b="Bortforpakte" s="634319179576856744" on="1" />
+    <r a="Ébats" b="Gledesytringer" s="634319179576856744" on="1" />
+    <r a="Ébéniste" b="Møbelsnekker" s="634319179576856744" on="1" />
+    <r a="Ébouriffer" b="Ruske opp i" s="634319179576856744" on="1" />
+    <r a="Écailler" b="Skalle av" s="634319179576856744" on="1" />
+    <r a="Écarlate" b="Skarlagensrød" s="634319179576856744" on="1" />
+    <r a="Ecchymose" b="Blodutredelse" s="634319179576856744" on="1" />
+    <r a="Écervelé" b="Tankeløs" s="634319179576856744" on="1" />
+    <r a="Échéance" b="Forfallsdag" s="634319179576856744" on="1" />
+    <r a="Échiquier" b="Sjakkbrett" s="634319179576856744" on="1" />
+    <r a="Éclaboussure" b="Søleskvett" s="634319179576856744" on="1" />
+    <r a="Éclaireur" b="Speider" s="634319179576856744" on="1" />
+    <r a="Écluse" b="Sluse" s="634319179576856744" on="1" />
+    <r a="Éconduire" b="Avvise" s="634319179576856744" on="1" />
+    <r a="Ècorce" b="Bark" s="634319179576856744" on="1" />
+    <r a="Écorcher" b="Flå" s="634319179576856744" on="1" />
+    <r a="Écoutille" b="Luke" s="634319179576856744" on="1" />
+    <r a="Écrevisse" b="Kreps" s="634319179576856744" on="1" />
+    <r a="Écriteau" b="Plakat" s="634319179576856744" on="1" />
+    <r a="Écuelle" b="Tallerken" s="634319179576856744" on="1" />
+    <r a="Écureuil" b="Ekorn" s="634319179576856744" on="1" />
+    <r a="Édulcorer" b="Mildne" s="634319179576856744" on="1" />
+    <r a="Égratignure" b="Risp" s="634319179576856744" on="1" />
+    <r a="Emballer" b="Pakke inn" s="634319179576856744" on="1" />
+    <r a="Embaucher" b="Ansette" s="634319179576856744" on="1" />
+    <r a="Emmitoufler" b="Kle godt på" s="634319179576856744" on="1" />
+    <r a="Empièter" b="Krenke" s="634319179576856744" on="1" />
+    <r a="Empiffrer" b="Stappe i seg (av mat)" s="634319179576856744" on="1" />
+    <r a="Enclume" b="Ambolt" s="634319179576856744" on="1" />
+    <r a="Encoignure" b="Hjørne" s="634319179576856744" on="1" />
+    <r a="Encolure" b="Hals på dyr" s="634319179576856744" on="1" />
+    <r a="Encombrant" b="Plagsom, sjenerende" s="634319179576856744" on="1" />
+    <r a="Encourir" b="Pådra seg" s="634319179576856744" on="1" />
+    <r a="Endimancher" b="Ta på seg pentøyet" s="634319179576856744" on="1" />
+    <r a="Énergumène" b="Fanatiker" s="634319179576856744" on="1" />
+    <r a="Engourdie" b="Nummen" s="634319179576856744" on="1" />
+    <r a="Enseigne" b="Butikk skilt" s="634319179576856744" on="1" />
+    <r a="Ensevelir" b="Gravlegge" s="634319179576856744" on="1" />
+    <r a="Entonnoir" b="Trakt" s="634319179576856744" on="1" />
+    <r a="Entrebâiller" b="Åpne på gløtt" s="634319179576856744" on="1" />
+    <r a="Entrepont" b="Mellomdekk" s="634319179576856744" on="1" />
+    <r a="Entreposér" b="Lagre" s="634319179576856744" on="1" />
+    <r a="Envergure" b="Utstrekning" s="634319179576856744" on="1" />
+    <r a="Épérdu" b="Forstyrret" s="634319179576856744" on="1" />
+    <r a="Éploré" b="Forgrått" s="634319179576856744" on="1" />
+    <r a="Épopée" b="Heltedikt" s="634319179576856744" on="1" />
+    <r a="Épouvantail" b="Fugleskremsel" s="634319179576856744" on="1" />
+    <r a="Équité" b="Rettferdighet" s="634319179576856744" on="1" />
+    <r a="Escamoteur" b="Illusjonist" s="634319179576856744" on="1" />
+    <r a="Escompter" b="Ta på forskudd" s="634319179576856744" on="1" />
+    <r a="Escrime" b="Fekting" s="634319179576856744" on="1" />
+    <r a="Esquiver" b="Smyge unna" s="634319179576856744" on="1" />
+    <r a="Essieu" b="Hjulaksel" s="634319179576856744" on="1" />
+    <r a="Estafette" b="Kurer" s="634319179576856744" on="1" />
+    <r a="Estrade" b="Podium" s="634319179576856744" on="1" />
+    <r a="Étalage" b="Vareutstilling" s="634319179576856744" on="1" />
+    <r a="Étancher" b="Slukke tørsten" s="634319179576856744" on="1" />
+    <r a="Étau" b="Skrustikke" s="634319179576856744" on="1" />
+    <r a="Étendard" b="Banner" s="634319179576856744" on="1" />
+    <r a="Étendue en friche" b="Udyrket mark" s="634319179576856744" on="1" />
+    <r a="Éternuer" b="Nyse" s="634319179576856744" on="1" />
+    <r a="Étrenne" b="Nyttårsgave" s="634319179576856744" on="1" />
+    <r a="Étrier" b="Stigbøyle" s="634319179576856744" on="1" />
+    <r a="Étuve" b="Badstu" s="634319179576856744" on="1" />
+    <r a="Excaucér" b="Bønnhøre" s="634319179576856744" on="1" />
+    <r a="Exécrer" b="Avsky" s="634319179576856744" on="1" />
+    <r a="Exiguë" b="Liten, snau" s="634319179576856744" on="1" />
+    <r a="Exsuder" b="Svette" s="634319179576856744" on="1" />
+    <r a="Fainéantise" b="Udugelighet" s="634319179576856744" on="1" />
+    <r a="Faire des dèmarches" b="Ta forhåndsregler" s="634319179576856744" on="1" />
+    <r a="Faire la Moue" b="Furte" s="634319179576856744" on="1" />
+    <r a="Faisceaux" b="Bunt, knippe" s="634319179576856744" on="1" />
+    <r a="Falot" b="Lanterne" s="634319179576856744" on="1" />
+    <r a="Fanal" b="Lanterne" s="634319179576856744" on="1" />
+    <r a="Fané" b="Vissen" s="634319179576856744" on="1" />
+    <r a="Fantassin" b="Fotsoldat" s="634319179576856744" on="1" />
+    <r a="Faucille" b="Sigd" s="634319179576856744" on="1" />
+    <r a="Fautive" b="Feilaktig" s="634319179576856744" on="1" />
+    <r a="Favoris" b="Kinnskjegg" s="634319179576856744" on="1" />
+    <r a="Fendre" b="Slå sprekker, revne" s="634319179576856744" on="1" />
+    <r a="Fiole" b="(Medisin) flaske" s="634319179576856744" on="1" />
+    <r a="Firmament" b="Himmelhvelving" s="634319179576856744" on="1" />
+    <r a="Flaque" b="Sølepytt" s="634319179576856744" on="1" />
+    <r a="Fléchir" b="Gi etter" s="634319179576856744" on="1" />
+    <r a="Flétrir" b="Falme" s="634319179576856744" on="1" />
+    <r a="Fluxion" b="Betennelse" s="634319179576856744" on="1" />
+    <r a="Foin" b="Høy" s="634319179576856744" on="1" />
+    <r a="Foncé" b="Mørk" s="634319179576856744" on="1" />
+    <r a="Fonte" b="Støpejern" s="634319179576856744" on="1" />
+    <r a="Forcat" b="Fange" s="634319179576856744" on="1" />
+    <r a="Fossette" b="Smilehull" s="634319179576856744" on="1" />
+    <r a="Fougère" b="Bregne" s="634319179576856744" on="1" />
+    <r a="Fouine" b="Mår" s="634319179576856744" on="1" />
+    <r a="Foulure" b="Forstuvning" s="634319179576856744" on="1" />
+    <r a="Fourbe" b="Bedragersk" s="634319179576856744" on="1" />
+    <r a="Fourberie" b="Lureri, bedrag" s="634319179576856744" on="1" />
+    <r a="Fourgon" b="Bagasjevogn" s="634319179576856744" on="1" />
+    <r a="Fourré" b="Kratt" s="634319179576856744" on="1" />
+    <r a="Fourvoyer" b="Føre på villvei" s="634319179576856744" on="1" />
+    <r a="Friandise" b="Søtsaker" s="634319179576856744" on="1" />
+    <r a="Fringant" b="Elegant" s="634319179576856744" on="1" />
+    <r a="Fripé" b="Skrukkete" s="634319179576856744" on="1" />
+    <r a="Froisser" b="Såre, støte, krenke" s="634319179576856744" on="1" />
+    <r a="Fugue" b="Flukt" s="634319179576856744" on="1" />
+    <r a="Fumet" b="Matlukt" s="634319179576856744" on="1" />
+    <r a="Fumeux" b="Rykende" s="634319179576856744" on="1" />
+    <r a="Fustiger" b="Kritisere, piske" s="634319179576856744" on="1" />
+    <r a="Fût" b="Tønne" s="634319179576856744" on="1" />
+    <r a="Gageure" b="Veddemål" s="634319179576856744" on="1" />
+    <r a="Galette" b="Pannekake" s="634319179576856744" on="1" />
+    <r a="Geindre" b="Stønne" s="634319179576856744" on="1" />
+    <r a="Gercer" b="Få til å sprekke" s="634319179576856744" on="1" />
+    <r a="Gérer" b="Administrere" s="634319179576856744" on="1" />
+    <r a="Gilet" b="Vest" s="634319179576856744" on="1" />
+    <r a="Girouette" b="Værhane" s="634319179576856744" on="1" />
+    <r a="Gîte" b="Motell" s="634319179576856744" on="1" />
+    <r a="Givre" b="Rim" s="634319179576856744" on="1" />
+    <r a="Glauque" b="Vassen" s="634319179576856744" on="1" />
+    <r a="Gosier" b="Strupe" s="634319179576856744" on="1" />
+    <r a="Goudron" b="Tjære" s="634319179576856744" on="1" />
+    <r a="Gourdin" b="Kjepp" s="634319179576856744" on="1" />
+    <r a="Grange" b="Låve" s="634319179576856744" on="1" />
+    <r a="Gravats" b="Mur eller gipsblokker" s="634319179576856744" on="1" />
+    <r a="Grelot" b="Bjelle" s="634319179576856744" on="1" />
+    <r a="Gribouillage" b="Skribleri" s="634319179576856744" on="1" />
+    <r a="Grief" b="Besvær" s="634319179576856744" on="1" />
+    <r a="Grignoter" b="Venne seg til, knaske" s="634319179576856744" on="1" />
+    <r a="Griser" b="Beruse" s="634319179576856744" on="1" />
+    <r a="Grive" b="Trost" s="634319179576856744" on="1" />
+    <r a="Groseillier" b="Rips" s="634319179576856744" on="1" />
+    <r a="Gruau" b="Grøt" s="634319179576856744" on="1" />
+    <r a="Gué" b="Vadested" s="634319179576856744" on="1" />
+    <r a="Guenilles" b="Filler" s="634319179576856744" on="1" />
+    <r a="Guèrite" b="Brakke" s="634319179576856744" on="1" />
+    <r a="Guigne" b="Uflaks" s="634319179576856744" on="1" />
+    <r a="Guindé" b="Tilgjort" s="634319179576856744" on="1" />
+    <r a="Hachoir" b="Hakkekniv" s="634319179576856744" on="1" />
+    <r a="Hâle" b="Solbrenthet" s="634319179576856744" on="1" />
+    <r a="Haleter" b="Gispe" s="634319179576856744" on="1" />
+    <r a="Hamecon" b="Fiskekrok" s="634319179576856744" on="1" />
+    <r a="Hardes" b="Gamle klær" s="634319179576856744" on="1" />
+    <r a="Hardiesse" b="Dristighet" s="634319179576856744" on="1" />
+    <r a="Hargne" b="Dårlig humør" s="634319179576856744" on="1" />
+    <r a="Hâve" b="Avmagret" s="634319179576856744" on="1" />
+    <r a="Havresac" b="Ransel" s="634319179576856744" on="1" />
+    <r a="Héraut" b="Utroper" s="634319179576856744" on="1" />
+    <r a="Herboriser" b="Sanke planter" s="634319179576856744" on="1" />
+    <r a="Hirsute" b="Uflidd" s="634319179576856744" on="1" />
+    <r a="Honnir" b="Skjemme ut" s="634319179576856744" on="1" />
+    <r a="Houle" b="Bølge" s="634319179576856744" on="1" />
+    <r a="Houleuse" b="Opprørt" s="634319179576856744" on="1" />
+    <r a="Houspiller" b="Kjefte på" s="634319179576856744" on="1" />
+    <r a="Housses" b="Heste dekken" s="634319179576856744" on="1" />
+    <r a="Hyphothéqué" b="Belånt" s="634319179576856744" on="1" />
+    <r a="Impie" b="Blasfemisk person" s="634319179576856744" on="1" />
+    <r a="Inculte" b="Ukultivert" s="634319179576856744" on="1" />
+    <r a="Indemnité" b="Trygd, godtgjørelse" s="634319179576856744" on="1" />
+    <r a="Ingènier" b="Anstrenge seg mentalt" s="634319179576856744" on="1" />
+    <r a="Insipide" b="Smakløs, flau" s="634319179576856744" on="1" />
+    <r a="Jetée" b="Molo" s="634319179576856744" on="1" />
+    <r a="Jeûner" b="Faste" s="634319179576856744" on="1" />
+    <r a="Jonc" b="Siv" s="634319179576856744" on="1" />
+    <r a="Joug" b="Åk" s="634319179576856744" on="1" />
+    <r a="Jument" b="Hoppe, Merr" s="634319179576856744" on="1" />
+    <r a="Juteux" b="Saftig" s="634319179576856744" on="1" />
+    <r a="Knout" b="Lærpisk" s="634319179576856744" on="1" />
+    <r a="Lacune" b="Mellomrom, avbrudd" s="634319179576856744" on="1" />
+    <r a="Lambris" b="Panel" s="634319179576856744" on="1" />
+    <r a="Lame de fond" b="Bølge som bryter på grunt vann" s="634319179576856744" on="1" />
+    <r a="Laper" b="Slafse i seg" s="634319179576856744" on="1" />
+    <r a="Lessive" b="Klesvask" s="634319179576856744" on="1" />
+    <r a="Leurre" b="Lureri" s="634319179576856744" on="1" />
+    <r a="Liasse" b="Bunke" s="634319179576856744" on="1" />
+    <r a="Libelle" b="Smedeskrift" s="634319179576856744" on="1" />
+    <r a="Liesse" b="Fryd" s="634319179576856744" on="1" />
+    <r a="Limer" b="Slipe" s="634319179576856744" on="1" />
+    <r a="Livide" b="Gråblek" s="634319179576856744" on="1" />
+    <r a="Louche" b="Mørk, uklar" s="634319179576856744" on="1" />
+    <r a="Loutre" b="Oter" s="634319179576856744" on="1" />
+    <r a="Lubrique" b="Kåt" s="634319179576856744" on="1" />
+    <r a="Lutrin" b="Prekestol" s="634319179576856744" on="1" />
+    <r a="Lys" b="Lilje" s="634319179576856744" on="1" />
+    <r a="Majuscule" b="Stor bokstav" s="634319179576856744" on="1" />
+    <r a="Malle" b="Koffert" s="634319179576856744" on="1" />
+    <r a="Malotru" b="Bølle" s="634319179576856744" on="1" />
+    <r a="Malveillance" b="Ondsinnethet" s="634319179576856744" on="1" />
+    <r a="Mamelon" b="Kolle" s="634319179576856744" on="1" />
+    <r a="Maniement" b="Håndtering" s="634319179576856744" on="1" />
+    <r a="Manigance" b="Kokkelimonke" s="634319179576856744" on="1" />
+    <r a="Mansuétude" b="Ettergivenhet" s="634319179576856744" on="1" />
+    <r a="Marécage" b="Myr" s="634319179576856744" on="1" />
+    <r a="Marmaille" b="Støyende ungeflokk" s="634319179576856744" on="1" />
+    <r a="Marmot" b="Unge" s="634319179576856744" on="1" />
+    <r a="Marotte" b="Fiks idé" s="634319179576856744" on="1" />
+    <r a="Marraine" b="Gudmor" s="634319179576856744" on="1" />
+    <r a="Masure" b="Rønne" s="634319179576856744" on="1" />
+    <r a="Matou" b="Hannkatt" s="634319179576856744" on="1" />
+    <r a="Mauve" b="Lilla" s="634319179576856744" on="1" />
+    <r a="Mélèz" b="Lerketre" s="634319179576856744" on="1" />
+    <r a="Mélomane" b="Musikkelsker" s="634319179576856744" on="1" />
+    <r a="Mélopée" b="Monoton nynning" s="634319179576856744" on="1" />
+    <r a="Menuisier" b="Snekker" s="634319179576856744" on="1" />
+    <r a="Mesquin" b="Smålig, tarvelig" s="634319179576856744" on="1" />
+    <r a="Meurtrissure" b="Blåmerke" s="634319179576856744" on="1" />
+    <r a="Meute" b="Kobbel" s="634319179576856744" on="1" />
+    <r a="Minauderie" b="Koketterie" s="634319179576856744" on="1" />
+    <r a="Miroitante" b="Glitrende" s="634319179576856744" on="1" />
+    <r a="Mité" b="Møllspist" s="634319179576856744" on="1" />
+    <r a="Mitre" b="Lue" s="634319179576856744" on="1" />
+    <r a="Modique" b="Beskjeden" s="634319179576856744" on="1" />
+    <r a="Moelleux" b="Bløt" s="634319179576856744" on="1" />
+    <r a="Moineux" b="Spurv" s="634319179576856744" on="1" />
+    <r a="Moisi" b="Mugg" s="634319179576856744" on="1" />
+    <r a="Moisson" b="Avling" s="634319179576856744" on="1" />
+    <r a="Mollet" b="Tykklegg" s="634319179576856744" on="1" />
+    <r a="Morfondre" b="Sture" s="634319179576856744" on="1" />
+    <r a="Morgue" b="Hovenhet, likhus" s="634319179576856744" on="1" />
+    <r a="Morne" b="Trist" s="634319179576856744" on="1" />
+    <r a="Mors" b="Bissel" s="634319179576856744" on="1" />
+    <r a="Morve" b="Snørr" s="634319179576856744" on="1" />
+    <r a="Morveux" b="Snørrunge" s="634319179576856744" on="1" />
+    <r a="Motte" b="Jordklump" s="634319179576856744" on="1" />
+    <r a="Mouchard" b="Tyster" s="634319179576856744" on="1" />
+    <r a="Mouette" b="Måke" s="634319179576856744" on="1" />
+    <r a="Moussu" b="Mosegrodd" s="634319179576856744" on="1" />
+    <r a="Muguet" b="Liljekonvall" s="634319179576856744" on="1" />
+    <r a="Munificence" b="Raushet" s="634319179576856744" on="1" />
+    <r a="Myrtilles" b="Blåbær" s="634319179576856744" on="1" />
+    <r a="Nacre" b="Perlemor" s="634319179576856744" on="1" />
+    <r a="Nantis" b="Rik" s="634319179576856744" on="1" />
+    <r a="Narguer" b="Håne" s="634319179576856744" on="1" />
+    <r a="Narquois" b="Hånlig" s="634319179576856744" on="1" />
+    <r a="Navet" b="Nepete" s="634319179576856744" on="1" />
+    <r a="Navrant" b="Opprivende" s="634319179576856744" on="1" />
+    <r a="Nez retroussé" b="Oppstoppernese" s="634319179576856744" on="1" />
+    <r a="Nichée" b="Ungeflokk" s="634319179576856744" on="1" />
+    <r a="Nombril" b="Navle" s="634319179576856744" on="1" />
+    <r a="Oblique" b="På skrå" s="634319179576856744" on="1" />
+    <r a="Octroi" b="Privilegium, bytoll" s="634319179576856744" on="1" />
+    <r a="Octroyer" b="Bevilge, tildele" s="634319179576856744" on="1" />
+    <r a="Oeillet" b="Nellik" s="634319179576856744" on="1" />
+    <r a="Offusquer" b="Forarge, sjokkere" s="634319179576856744" on="1" />
+    <r a="Oie" b="Gås" s="634319179576856744" on="1" />
+    <r a="Omoplate" b="Skulderblad" s="634319179576856744" on="1" />
+    <r a="Opprobre" b="Skam, vanære" s="634319179576856744" on="1" />
+    <r a="Orée" b="Skogbryn" s="634319179576856744" on="1" />
+    <r a="Orfèvriere" b="Gullsmedarbeid" s="634319179576856744" on="1" />
+    <r a="Ornière" b="Hjulspor" s="634319179576856744" on="1" />
+    <r a="Ortie" b="Brennesle" s="634319179576856744" on="1" />
+    <r a="Ouragan" b="Orkan" s="634319179576856744" on="1" />
+    <r a="Ourdie" b="Inntrigespill" s="634319179576856744" on="1" />
+    <r a="Pactole" b="Gullgruve" s="634319179576856744" on="1" />
+    <r a="Païen" b="Hedning" s="634319179576856744" on="1" />
+    <r a="Paillasse" b="Madrass" s="634319179576856744" on="1" />
+    <r a="Palan" b="Talje" s="634319179576856744" on="1" />
+    <r a="Palefrenier" b="Stallgutt" s="634319179576856744" on="1" />
+    <r a="Paletot" b="Kappe" s="634319179576856744" on="1" />
+    <r a="Palier" b="Trappeavsats" s="634319179576856744" on="1" />
+    <r a="Palmipède" b="Svømmefugl" s="634319179576856744" on="1" />
+    <r a="Palper" b="Beføle" s="634319179576856744" on="1" />
+    <r a="Pâmer" b="Dåne, besvime" s="634319179576856744" on="1" />
+    <r a="Pancarte" b="Skilt" s="634319179576856744" on="1" />
+    <r a="Panier" b="Kurv" s="634319179576856744" on="1" />
+    <r a="Panneau" b="Tavle, plakat" s="634319179576856744" on="1" />
+    <r a="Panoplie" b="Våpensamling" s="634319179576856744" on="1" />
+    <r a="Pantin" b="Sprellemann" s="634319179576856744" on="1" />
+    <r a="Pantois" b="Sjokkert" s="634319179576856744" on="1" />
+    <r a="Paon" b="Påfugl" s="634319179576856744" on="1" />
+    <r a="Parages" b="Område, trakter" s="634319179576856744" on="1" />
+    <r a="Parcheminé" b="Pergamentert" s="634319179576856744" on="1" />
+    <r a="Parvenu" b="Oppkomling" s="634319179576856744" on="1" />
+    <r a="Pâte" b="Deig" s="634319179576856744" on="1" />
+    <r a="Pâteux" b="Deigete" s="634319179576856744" on="1" />
+    <r a="Patins" b="Skøyter" s="634319179576856744" on="1" />
+    <r a="Patois" b="Dialekt" s="634319179576856744" on="1" />
+    <r a="Pavoiser" b="Pynte med flagg" s="634319179576856744" on="1" />
+    <r a="Peignoir" b="Morgenkåpe" s="634319179576856744" on="1" />
+    <r a="Pelisse" b="Pelskåpe" s="634319179576856744" on="1" />
+    <r a="Pelle" b="Spade" s="634319179576856744" on="1" />
+    <r a="Pelotonner" b="Rulle seg sammen" s="634319179576856744" on="1" />
+    <r a="Pelucheux" b="Lodden" s="634319179576856744" on="1" />
+    <r a="Perclus" b="Ufør" s="634319179576856744" on="1" />
+    <r a="Périmé" b="Utgått" s="634319179576856744" on="1" />
+    <r a="Péripétie" b="Vendepunkt" s="634319179576856744" on="1" />
+    <r a="Perquisitionner" b="Ransake" s="634319179576856744" on="1" />
+    <r a="Phalange" b="Finger- eller tåledd" s="634319179576856744" on="1" />
+    <r a="Phoque" b="Selunge" s="634319179576856744" on="1" />
+    <r a="Pilon" b="Treben" s="634319179576856744" on="1" />
+    <r a="Pilotis" b="Påler" s="634319179576856744" on="1" />
+    <r a="Pimbêche" b="Nebbete" s="634319179576856744" on="1" />
+    <r a="Pintade" b="Perlehøne" s="634319179576856744" on="1" />
+    <r a="Pioche" b="Hakke" s="634319179576856744" on="1" />
+    <r a="Pitre" b="Klovn" s="634319179576856744" on="1" />
+    <r a="Planton" b="Ordonnans" s="634319179576856744" on="1" />
+    <r a="Plébiscite" b="Folkeavstemning" s="634319179576856744" on="1" />
+    <r a="Plumer" b="Snyte" s="634319179576856744" on="1" />
+    <r a="Poignard" b="Dolk" s="634319179576856744" on="1" />
+    <r a="Point de mire" b="Fokus" s="634319179576856744" on="1" />
+    <r a="Pointillé" b="Perforert linje" s="634319179576856744" on="1" />
+    <r a="Poix" b="Bek" s="634319179576856744" on="1" />
+    <r a="Poltronnerie" b="Feighet" s="634319179576856744" on="1" />
+    <r a="Pomponné" b="Pyntet" s="634319179576856744" on="1" />
+    <r a="Postillon" b="Hornblåser" s="634319179576856744" on="1" />
+    <r a="Potence" b="Galge" s="634319179576856744" on="1" />
+    <r a="Pouce" b="Tommelfinger" s="634319179576856744" on="1" />
+    <r a="Pouilleux" b="Lusete" s="634319179576856744" on="1" />
+    <r a="Poupine" b="Dukkeaktig" s="634319179576856744" on="1" />
+    <r a="Poussin" b="Liten kylling" s="634319179576856744" on="1" />
+    <r a="Pré" b="Eng" s="634319179576856744" on="1" />
+    <r a="Préjugé" b="Fordom" s="634319179576856744" on="1" />
+    <r a="Preneur" b="Kjøper" s="634319179576856744" on="1" />
+    <r a="Prévenance" b="Imøtekommenhet" s="634319179576856744" on="1" />
+    <r a="Primer" b="Premiere" s="634319179576856744" on="1" />
+    <r a="Probité" b="Rettskaffenhet" s="634319179576856744" on="1" />
+    <r a="Procuration" b="Fullmakt" s="634319179576856744" on="1" />
+    <r a="Prodiguer" b="Sløse bort" s="634319179576856744" on="1" />
+    <r a="Propriétaire Foncier" b="Grunneier" s="634319179576856744" on="1" />
+    <r a="Proue" b="Baug" s="634319179576856744" on="1" />
+    <r a="Pucelle" b="Jomfru" s="634319179576856744" on="1" />
+    <r a="Puiser" b="Tappe (som krefter)" s="634319179576856744" on="1" />
+    <r a="Punaise" b="Lus" s="634319179576856744" on="1" />
+    <r a="Pusillanime" b="Forsagt" s="634319179576856744" on="1" />
+    <r a="Quitte" b="Kvitt" s="634319179576856744" on="1" />
+    <r a="Quolibet" b="Fleip" s="634319179576856744" on="1" />
+    <r a="Râblé" b="Kortvokst" s="634319179576856744" on="1" />
+    <r a="Rabrouer" b="Avvise" s="634319179576856744" on="1" />
+    <r a="Radeau" b="Flåte" s="634319179576856744" on="1" />
+    <r a="Ragots" b="Sladder" s="634319179576856744" on="1" />
+    <r a="Ramée" b="Løv" s="634319179576856744" on="1" />
+    <r a="Râteau" b="Rake" s="634319179576856744" on="1" />
+    <r a="Râtelier" b="Trau til fôr" s="634319179576856744" on="1" />
+    <r a="Recette" b="Oppskrift" s="634319179576856744" on="1" />
+    <r a="Récif" b="Skjær" s="634319179576856744" on="1" />
+    <r a="Récurer" b="Skrubbe" s="634319179576856744" on="1" />
+    <r a="Refroidissement" b="Avkjøling (om følelser)" s="634319179576856744" on="1" />
+    <r a="Régicide" b="Kongedrap" s="634319179576856744" on="1" />
+    <r a="Réglisse" b="Lakris" s="634319179576856744" on="1" />
+    <r a="Rejeton" b="Avkom" s="634319179576856744" on="1" />
+    <r a="Reléguer" b="Bortvise" s="634319179576856744" on="1" />
+    <r a="Reliure" b="Innbinding" s="634319179576856744" on="1" />
+    <r a="Reluquer" b="Skotte på" s="634319179576856744" on="1" />
+    <r a="Rembrunir" b="Gjøre dyster mine" s="634319179576856744" on="1" />
+    <r a="Remontrance" b="Reprimande" s="634319179576856744" on="1" />
+    <r a="Remous" b="Strømvirvel" s="634319179576856744" on="1" />
+    <r a="Rempart" b="Festningsmur" s="634319179576856744" on="1" />
+    <r a="Renfrogner" b="Rynke pannen" s="634319179576856744" on="1" />
+    <r a="Renne" b="Reinsdyr" s="634319179576856744" on="1" />
+    <r a="Résine" b="Kvae" s="634319179576856744" on="1" />
+    <r a="Ressac" b="Dragsug" s="634319179576856744" on="1" />
+    <r a="Ressorts" b="Fjæringer" s="634319179576856744" on="1" />
+    <r a="Revêche" b="Morsk" s="634319179576856744" on="1" />
+    <r a="Revenant" b="Spøkelse" s="634319179576856744" on="1" />
+    <r a="Revirement" b="Omslag, kuvending" s="634319179576856744" on="1" />
+    <r a="Rondin" b="Tømmerstokk" s="634319179576856744" on="1" />
+    <r a="Rongeur" b="Gnager" s="634319179576856744" on="1" />
+    <r a="Rosse" b="Hespetre, merr" s="634319179576856744" on="1" />
+    <r a="Rouquin" b="Rødhåring" s="634319179576856744" on="1" />
+    <r a="Ruche" b="Bisverm" s="634319179576856744" on="1" />
+    <r a="Rugosité" b="Noe som er ruglete" s="634319179576856744" on="1" />
+    <r a="Rustre" b="Slamp, bølle" s="634319179576856744" on="1" />
+    <r a="Sacoche" b="Lærveske" s="634319179576856744" on="1" />
+    <r a="Sangsue" b="Blodsuger" s="634319179576856744" on="1" />
+    <r a="Sanguin" b="Blodrød" s="634319179576856744" on="1" />
+    <r a="Sanguinaire" b="Blodtørstig" s="634319179576856744" on="1" />
+    <r a="Saumâtre" b="Brakk aktig" s="634319179576856744" on="1" />
+    <r a="Savoir gré" b="Være takknemlig" s="634319179576856744" on="1" />
+    <r a="Scabreuse" b="Uanstendig, slibrig" s="634319179576856744" on="1" />
+    <r a="Scie" b="Sag" s="634319179576856744" on="1" />
+    <r a="Scories" b="Slagg" s="634319179576856744" on="1" />
+    <r a="Se cotiser" b="Spleise på noe" s="634319179576856744" on="1" />
+    <r a="Se dérober" b="Gjemme seg" s="634319179576856744" on="1" />
+    <r a="Se vautrer" b="Velte seg" s="634319179576856744" on="1" />
+    <r a="Seau" b="Bøtte" s="634319179576856744" on="1" />
+    <r a="Secouer le joug" b="Kaste av seg åket" s="634319179576856744" on="1" />
+    <r a="Sédentaire" b="Stillesittende" s="634319179576856744" on="1" />
+    <r a="Seigle" b="Rug" s="634319179576856744" on="1" />
+    <r a="Selle" b="Sadel" s="634319179576856744" on="1" />
+    <r a="Sellier" b="Salmaker" s="634319179576856744" on="1" />
+    <r a="S'embourber" b="Sette seg fast" s="634319179576856744" on="1" />
+    <r a="S'emporter" b="Ta seg sammen" s="634319179576856744" on="1" />
+    <r a="Sève" b="Livskraft" s="634319179576856744" on="1" />
+    <r a="Sévir" b="Straffe hardt" s="634319179576856744" on="1" />
+    <r a="Sornettes" b="Tullprat" s="634319179576856744" on="1" />
+    <r a="Sortilège" b="Trolldom" s="634319179576856744" on="1" />
+    <r a="Souche" b="Stubbe" s="634319179576856744" on="1" />
+    <r a="Soudoyer" b="Bestikke" s="634319179576856744" on="1" />
+    <r a="Souillon" b="Skitten og dårlig kledd person" s="634319179576856744" on="1" />
+    <r a="Soulèvement" b="Opprør" s="634319179576856744" on="1" />
+    <r a="Staroste" b="Landsby leder" s="634319179576856744" on="1" />
+    <r a="Suborneur" b="Forfører" s="634319179576856744" on="1" />
+    <r a="Subvenir" b="Hjelpe, bidra til" s="634319179576856744" on="1" />
+    <r a="Suif" b="Talg" s="634319179576856744" on="1" />
+    <r a="Suint" b="Ullfett" s="634319179576856744" on="1" />
+    <r a="Supplice" b="Hard fysisk straff" s="634319179576856744" on="1" />
+    <r a="Supplique" b="Bønn" s="634319179576856744" on="1" />
+    <r a="Supputer" b="Anslå" s="634319179576856744" on="1" />
+    <r a="Surplomber" b="Være over noe" s="634319179576856744" on="1" />
+    <r a="Sursis" b="Utsettelse" s="634319179576856744" on="1" />
+    <r a="Taloche" b="Ørefik" s="634319179576856744" on="1" />
+    <r a="Talus" b="Skrent" s="634319179576856744" on="1" />
+    <r a="Tanguer" b="Duve" s="634319179576856744" on="1" />
+    <r a="Taquin" b="Ertekrok" s="634319179576856744" on="1" />
+    <r a="Teint" b="Ansiktsfarge" s="634319179576856744" on="1" />
+    <r a="Télègue" b="Fire-hjuls vogn" s="634319179576856744" on="1" />
+    <r a="Téméraire" b="Dumdristig" s="634319179576856744" on="1" />
+    <r a="Tenture" b="Gardin" s="634319179576856744" on="1" />
+    <r a="Tergiversation" b="Dårlige unnskyldninger" s="634319179576856744" on="1" />
+    <r a="Terne" b="Glansløs, matt" s="634319179576856744" on="1" />
+    <r a="Tertre" b="Haug" s="634319179576856744" on="1" />
+    <r a="Théière" b="Tekanne" s="634319179576856744" on="1" />
+    <r a="Tige" b="Stang, skaft" s="634319179576856744" on="1" />
+    <r a="Tignasse" b="Hårmanke" s="634319179576856744" on="1" />
+    <r a="Timon" b="Vognstang" s="634319179576856744" on="1" />
+    <r a="Timonier" b="Rormann" s="634319179576856744" on="1" />
+    <r a="Toiser" b="Se foraktelig på" s="634319179576856744" on="1" />
+    <r a="Toison" b="Pels" s="634319179576856744" on="1" />
+    <r a="Tonelle" b="Lysthus" s="634319179576856744" on="1" />
+    <r a="Tonneau" b="Tønne" s="634319179576856744" on="1" />
+    <r a="Tonnelet" b="Kagge" s="634319179576856744" on="1" />
+    <r a="Toque" b="Kokkelue" s="634319179576856744" on="1" />
+    <r a="Torve" b="Truende" s="634319179576856744" on="1" />
+    <r a="Touffu" b="Buskete" s="634319179576856744" on="1" />
+    <r a="Toupie" b="Snurrebass" s="634319179576856744" on="1" />
+    <r a="Tournage" b="Filminnspilling" s="634319179576856744" on="1" />
+    <r a="Tournesol" b="Solsikke" s="634319179576856744" on="1" />
+    <r a="Traîneau" b="Slede" s="634319179576856744" on="1" />
+    <r a="Traqué" b="Jaktet" s="634319179576856744" on="1" />
+    <r a="Trébucher" b="Snuble" s="634319179576856744" on="1" />
+    <r a="Trépas" b="Bortgang, død" s="634319179576856744" on="1" />
+    <r a="Tresse" b="Flette" s="634319179576856744" on="1" />
+    <r a="Treuil" b="Vinsj" s="634319179576856744" on="1" />
+    <r a="Trêve" b="Våpenhvile" s="634319179576856744" on="1" />
+    <r a="Tripot" b="Spillebule" s="634319179576856744" on="1" />
+    <r a="Trousse" b="Etui, futteral" s="634319179576856744" on="1" />
+    <r a="Truelle" b="Murerskje" s="634319179576856744" on="1" />
+    <r a="Tuméfié" b="Hoven" s="634319179576856744" on="1" />
+    <r a="Vantail" b="Dør" s="634319179576856744" on="1" />
+    <r a="Variole" b="Kopper" s="634319179576856744" on="1" />
+    <r a="Vasque" b="Fontenebasseng" s="634319179576856744" on="1" />
+    <r a="Vaurien" b="Liten kjeltring" s="634319179576856744" on="1" />
+    <r a="Vautour" b="Gribbe" s="634319179576856744" on="1" />
+    <r a="Veilleuse" b="Nattlampe" s="634319179576856744" on="1" />
+    <r a="Velu" b="Hårete" s="634319179576856744" on="1" />
+    <r a="Vermoulu" b="Markspist" s="634319179576856744" on="1" />
+    <r a="Verste" b="Litt over en kilometer" s="634319179576856744" on="1" />
+    <r a="Vestimentaire" b="Kles saker" s="634319179576856744" on="1" />
+    <r a="Vétille" b="Bagatell" s="634319179576856744" on="1" />
+    <r a="Vétuste" b="Skrøpelig" s="634319179576856744" on="1" />
+    <r a="Virgule" b="Komma" s="634319179576856744" on="1" />
+    <r a="Vociférer" b="Skrike" s="634319179576856744" on="1" />
+    <r a="Yeux bridés" b="Smale øyne" s="634319179576856744" on="1" />
+    <r a="Zibeline" b="Sobel" s="634319179576856744" on="1" />
+  </Entries>
+</Root>

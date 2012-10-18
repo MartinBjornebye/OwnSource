@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crammer", "Crammer.csproj", "{01F579F1-2701-478F-9C6A-5D5BF33EAB4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F579F1-2701-478F-9C6A-5D5BF33EAB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F579F1-2701-478F-9C6A-5D5BF33EAB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F579F1-2701-478F-9C6A-5D5BF33EAB4C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{01F579F1-2701-478F-9C6A-5D5BF33EAB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F579F1-2701-478F-9C6A-5D5BF33EAB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F579F1-2701-478F-9C6A-5D5BF33EAB4C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
