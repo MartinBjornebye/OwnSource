@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Exports Dictionary
+using System;
 using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
