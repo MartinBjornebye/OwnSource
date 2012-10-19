@@ -47,7 +47,7 @@ namespace MB.Crammer
         private const string FONT_COLOR = "Color";
         private const string FONT_BOLD = "Bold";
 
-        private const string STATE_FILE_EXT = ".statefile";
+        public const string STATE_FILE_EXT = ".statefile";
         private const int OUTPUT_ALLOC_SIZE = 5000000;
 
         #endregion
@@ -293,10 +293,13 @@ namespace MB.Crammer
 
         public static void removeStateFiles()
         {
-            foreach (string stateFile in Properties.Settings.Default.DictionaryHistory)
+            string stateFilePath = "";
+            foreach (string dictionaryFile in Properties.Settings.Default.DictionaryHistory)
             {
-                if (File.Exists(stateFile))
-                    File.Delete(stateFile);
+                string withoutExtension = Path.GetFileNameWithoutExtension(dictionaryFile);
+                stateFilePath = Path.Combine(Path.GetDirectoryName(dictionaryFile), withoutExtension) + CrammerDictionary.STATE_FILE_EXT;
+                if (File.Exists(stateFilePath))
+                    File.Delete(stateFilePath);
             }
         }
 
