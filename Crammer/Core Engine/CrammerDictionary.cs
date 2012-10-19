@@ -291,6 +291,9 @@ namespace MB.Crammer
             mDictionary.Save(mDictionaryFile);
         }
 
+        /// <summary>
+        /// Iterate over all dictionaries, create related statefile names and delete them
+        /// </summary>
         public static void removeStateFiles()
         {
             string stateFilePath = "";

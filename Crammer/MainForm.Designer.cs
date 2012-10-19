@@ -35,7 +35,6 @@
             this.newMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
-            this.dictionarySettingsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editDictionaryMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportDictionaryMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
@@ -48,9 +47,10 @@
             this.byTimestampAscendingMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.byTimestampDescendingMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.randomizeMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.exitMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dictionarySettingsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.exitMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.dictionaryHistoryMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
@@ -79,7 +79,6 @@
             this.cmdNo = new System.Windows.Forms.Button();
             this.cmdVerify = new System.Windows.Forms.Button();
             this.cmdYes = new System.Windows.Forms.Button();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picNewWords)).BeginInit();
             this.SuspendLayout();
@@ -116,17 +115,16 @@
             this.toolStripDropDownButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newMenuItem,
             this.openMenuItem,
-            this.toolStripSeparator11,
             this.editDictionaryMenuItem,
+            this.toolStripSeparator11,
+            this.sortToolStripMenuItem,
+            this.toolStripSeparator10,
+            this.swapSequenceMenuItem,
+            this.startAllOverMenuItem,
+            this.toolStripSeparator12,
+            this.dictionarySettingsMenuItem,
             this.exportDictionaryMenuItem,
             this.toolStripSeparator7,
-            this.startAllOverMenuItem,
-            this.swapSequenceMenuItem,
-            this.toolStripSeparator10,
-            this.sortToolStripMenuItem,
-            this.toolStripSeparator8,
-            this.dictionarySettingsMenuItem,
-            this.toolStripSeparator12,
             this.exitMenuItem,
             this.toolStripSeparator4});
             this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
@@ -157,20 +155,12 @@
             this.toolStripSeparator11.Name = "toolStripSeparator11";
             this.toolStripSeparator11.Size = new System.Drawing.Size(198, 6);
             // 
-            // dictionarySettingsMenuItem
-            // 
-            this.dictionarySettingsMenuItem.Name = "dictionarySettingsMenuItem";
-            this.dictionarySettingsMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3;
-            this.dictionarySettingsMenuItem.Size = new System.Drawing.Size(201, 22);
-            this.dictionarySettingsMenuItem.Text = "Dictionary Settings...";
-            this.dictionarySettingsMenuItem.Click += new System.EventHandler(this.dictionarySettingsMenuItem_Click);
-            // 
             // editDictionaryMenuItem
             // 
             this.editDictionaryMenuItem.Name = "editDictionaryMenuItem";
             this.editDictionaryMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F4;
             this.editDictionaryMenuItem.Size = new System.Drawing.Size(201, 22);
-            this.editDictionaryMenuItem.Text = "Edit Dictionary...";
+            this.editDictionaryMenuItem.Text = "Edit...";
             this.editDictionaryMenuItem.Click += new System.EventHandler(this.editDictionaryMenuItem_Click);
             // 
             // exportDictionaryMenuItem
@@ -259,10 +249,18 @@
             this.randomizeMenuItem.Text = "Randomize";
             this.randomizeMenuItem.Click += new System.EventHandler(this.randomizeMenuItem_Click);
             // 
-            // toolStripSeparator8
+            // dictionarySettingsMenuItem
             // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(198, 6);
+            this.dictionarySettingsMenuItem.Name = "dictionarySettingsMenuItem";
+            this.dictionarySettingsMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3;
+            this.dictionarySettingsMenuItem.Size = new System.Drawing.Size(201, 22);
+            this.dictionarySettingsMenuItem.Text = "Dictionary Settings...";
+            this.dictionarySettingsMenuItem.Click += new System.EventHandler(this.dictionarySettingsMenuItem_Click);
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            this.toolStripSeparator12.Size = new System.Drawing.Size(198, 6);
             // 
             // exitMenuItem
             // 
@@ -271,10 +269,10 @@
             this.exitMenuItem.Text = "Exit";
             this.exitMenuItem.Click += new System.EventHandler(this.exitMenuItem_Click);
             // 
-            // toolStripSeparator12
+            // toolStripSeparator4
             // 
-            this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(198, 6);
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(198, 6);
             // 
             // toolStripDropDownButton1
             // 
@@ -484,11 +482,6 @@
             this.cmdYes.UseVisualStyleBackColor = true;
             this.cmdYes.Click += new System.EventHandler(this.cmdYes_Click);
             // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(198, 6);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -539,7 +532,6 @@
         private System.Windows.Forms.ToolStripMenuItem startAllOverMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
         private System.Windows.Forms.ToolStripMenuItem editDictionaryMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
         private System.Windows.Forms.ToolStripMenuItem exitMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dictionaryHistoryMenuItem;
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton3;
